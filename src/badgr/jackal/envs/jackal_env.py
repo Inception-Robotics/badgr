@@ -130,13 +130,15 @@ class JackalEnv(Env):
         )
 
     def _get_done(self):
+        # removed collision, JL, 2023-10-06
         names = [
-            'collision/any',
+            #'collision/any',
             'gps/latlong',
-            'joy'
+            #'joy'
         ]
         obs = AttrDict.from_dict(self._jackal_subscriber.get(names=names))
-        is_collision = obs.collision.any
+        # is_collision = obs.collision.any
+        is_collision = False # no collision, JL
         is_close_to_goal = np.linalg.norm(latlong_to_utm(self._goal_latlong) - latlong_to_utm(obs.gps.latlong)) < 2.0
         return is_collision or is_close_to_goal
 

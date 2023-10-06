@@ -145,10 +145,10 @@ class JackalBumpyEnvSpec(JackalEnvSpec):
 
             'jackal/imu/angular_velocity',
             'jackal/imu/linear_acceleration',
-            'imu/angular_velocity',
-            'imu/linear_acceleration',
+            # 'imu/angular_velocity',
+            # 'imu/linear_acceleration',
 
-            'bumpy',
+            # 'bumpy',
         ]
         if not self._left_image_only:
             names.append('images/rgb_right')
