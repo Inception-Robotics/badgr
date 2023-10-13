@@ -86,6 +86,7 @@ class JackalEnv(Env):
         self._goal_latlong = np.array([37.915021, -122.334439]) # default to next to the bathroom
 
     def _goal_callback(self, msg):
+        rospy.loginfo(f"New goal: lat: {msg.x}, long: {msg.y}")
         self._goal_latlong = np.array([msg.x, msg.y])
 
     ##########################
