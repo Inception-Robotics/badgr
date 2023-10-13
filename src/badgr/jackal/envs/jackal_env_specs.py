@@ -118,14 +118,14 @@ class JackalPositionCollisionEnvSpec(JackalEnvSpec):
 
             'jackal/imu/angular_velocity',
             'jackal/imu/linear_acceleration',
-            'imu/angular_velocity',
-            'imu/linear_acceleration',
+            # 'imu/angular_velocity',
+            # 'imu/linear_acceleration',
 
-            'imu/compass_bearing',
+            # 'imu/compass_bearing',
             'gps/latlong',
 
-            'collision/close',
-            'collision/stuck'
+            # 'collision/close',
+            # 'collision/stuck'
         ]
         if not self._left_image_only:
             names.append('images/rgb_right')
@@ -153,3 +153,4 @@ class JackalBumpyEnvSpec(JackalEnvSpec):
         if not self._left_image_only:
             names.append('images/rgb_right')
         return tuple(names)
+
