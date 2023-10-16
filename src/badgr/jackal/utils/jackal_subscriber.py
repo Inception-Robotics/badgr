@@ -22,6 +22,7 @@ class JackalSubscriber(object):
     lidar_topic_name = rospy.get_param("lidar_topic_name","/scan")
     cam_topic_name = rospy.get_param("cam_topic_name","/rgb")
     cmd_topic_name = rospy.get_param("cmd_topic_name","/cmd")
+    mag_topic_name = rospy.get_param("mag_topic_name","/mag")
     imu_topic_name = "/imu"
 
     topics_to_msgs = dict((

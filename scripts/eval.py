@@ -30,6 +30,8 @@ tf_utils.enable_static_execution(gpu=args.gpu, gpu_frac=args.gpu_frac)
 
 file_manager = FileManager(params.exp_name, is_continue=True)
 model = params.model.cls(params.model.kwargs_eval)
+
+print(params.model.kwargs_eval)
 planner = params.planner.cls(file_manager=file_manager, params=params.planner.kwargs)
 env = params.env.cls(env_spec=params.env.env_spec, params=params.env.params)
 
