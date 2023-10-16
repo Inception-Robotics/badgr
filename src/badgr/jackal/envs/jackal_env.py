@@ -77,9 +77,9 @@ class JackalEnv(Env):
     def _setup_ros(self):
         rospy.init_node('jackal_position_only_env', anonymous=True)
         subscribe_names = set(self.spec.observation_names)
-        subscribe_names.add('collision/any')
+        # subscribe_names.add('collision/any')   
         subscribe_names.add('gps/utm')
-        subscribe_names.add('joy')
+        # subscribe_names.add('joy')
         self._jackal_subscriber = JackalSubscriber(names=subscribe_names)
 
         rospy.Subscriber('/goal_intermediate_latlong', Pose2D, callback=self._goal_callback)
