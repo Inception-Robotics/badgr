@@ -55,5 +55,7 @@ while num_dones < args.num_dones:
     get_action = planner.get_action(model, obs, goal)
     obs, goal, done = env.step(get_action)
 
+    print(get_action)
+
 logger.info('Eval is done')
 rospy.signal_shutdown(0)
