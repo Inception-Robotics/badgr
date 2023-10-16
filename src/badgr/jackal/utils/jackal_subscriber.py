@@ -121,6 +121,7 @@ class JackalSubscriber(object):
 
         self._topics = set([JackalSubscriber.names_to_topics[name] for name in self._names])
         for topic in self._topics:
+            print(f"Topic to subscribe: {topic}")
             rospy.Subscriber(topic, JackalSubscriber.topics_to_msgs[topic],
                              callback=self.update_msg, callback_args=(topic,), queue_size=1)
 
