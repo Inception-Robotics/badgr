@@ -132,6 +132,7 @@ class JackalSubscriber(object):
 
     def update_msg(self, msg, args):
         topic = args[0]
+        rospy.loginfo(f"Msg from {topic}")
         self._d_msg[topic] = msg
 
     def get(self, names=None):
