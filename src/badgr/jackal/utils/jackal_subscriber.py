@@ -129,13 +129,14 @@ class JackalSubscriber(object):
     @property
     def is_all_topics_received(self):
         tmp = len(self._topics.difference(set(self._d_msg.keys())))
+        print(self._topics)
         print(self._d_msg.keys())
         print(tmp)
         return  tmp == 0
 
     def update_msg(self, msg, args):
         topic = args[0]
-        rospy.loginfo(f"Msg from {topic}")
+        # rospy.loginfo(f"Msg from {topic}")
         self._d_msg[topic] = msg
 
     def get(self, names=None):
