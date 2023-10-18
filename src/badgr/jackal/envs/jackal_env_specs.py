@@ -121,7 +121,7 @@ class JackalPositionCollisionEnvSpec(JackalEnvSpec):
             # 'imu/angular_velocity',
             # 'imu/linear_acceleration',
 
-            # 'imu/compass_bearing',
+            'imu/compass_bearing',
             'gps/latlong',
 
             # 'collision/close',
