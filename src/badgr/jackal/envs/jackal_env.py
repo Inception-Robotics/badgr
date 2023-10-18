@@ -77,7 +77,7 @@ class JackalEnv(Env):
     def _setup_ros(self):
         rospy.init_node('jackal_position_only_env', anonymous=True)
         subscribe_names = set(self.spec.observation_names)
-        # subscribe_names.add('collision/any')   
+        subscribe_names.add('collision/any')
         subscribe_names.add('gps/utm')
         # subscribe_names.add('joy')
         self._jackal_subscriber = JackalSubscriber(names=subscribe_names)
@@ -133,7 +133,7 @@ class JackalEnv(Env):
     def _get_done(self):
         # removed collision, JL, 2023-10-06
         names = [
-            #'collision/any',
+            'collision/any',
             'gps/latlong',
             #'joy'
         ]
