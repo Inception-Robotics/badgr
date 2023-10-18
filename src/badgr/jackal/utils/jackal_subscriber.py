@@ -128,7 +128,10 @@ class JackalSubscriber(object):
 
     @property
     def is_all_topics_received(self):
-        return len(self._topics.difference(set(self._d_msg.keys()))) == 0
+        tmp = len(self._topics.difference(set(self._d_msg.keys())))
+        print(self._d_msg.keys())
+        print(tmp)
+        return  tmp == 0
 
     def update_msg(self, msg, args):
         topic = args[0]
