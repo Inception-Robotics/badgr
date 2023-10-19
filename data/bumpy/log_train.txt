@@ -1,0 +1,1714 @@
+bumpy 2023-07-05T09:21:02.168090-0400 DEBUG Loading tfrecords...
+bumpy 2023-07-05T09:21:02.168310-0400 DEBUG ['/home/liuji/badgr/data/tfrecords_bumpy/08-02-2019_horizon_8', '/home/liuji/badgr/data/tfrecords_bumpy/08-06-2019_horizon_8', '/home/liuji/badgr/data/tfrecords_bumpy/08-08-2019_horizon_8', '/home/liuji/badgr/data/tfrecords_bumpy/08-13-2019_horizon_8', '/home/liuji/badgr/data/tfrecords_bumpy/08-15-2019_horizon_8', '/home/liuji/badgr/data/tfrecords_bumpy/08-18-2019_horizon_8', '/home/liuji/badgr/data/tfrecords_bumpy/08-20-2019_horizon_8', '/home/liuji/badgr/data/tfrecords_bumpy/08-27-2019_horizon_8', '/home/liuji/badgr/data/tfrecords_bumpy/08-29-2019_horizon_8', '/home/liuji/badgr/data/tfrecords_bumpy/09-09-2019_horizon_8', '/home/liuji/badgr/data/tfrecords_bumpy/09-17-2019_horizon_8', '/home/liuji/badgr/data/tfrecords_bumpy/09-19-2019_horizon_8', '/home/liuji/badgr/data/tfrecords_bumpy/10-20-2019_horizon_8', '/home/liuji/badgr/data/tfrecords_bumpy/10-24-2019_horizon_8', '/home/liuji/badgr/data/tfrecords_bumpy/10-31-2019_horizon_8']
+bumpy 2023-07-05T09:21:02.338630-0400 DEBUG Loading tfrecords...
+bumpy 2023-07-05T09:21:02.338832-0400 DEBUG ['/home/liuji/badgr/data/tfrecords_bumpy/09-12-2019_horizon_8']
+bumpy 2023-07-05T09:21:33.141229-0400 INFO 
+bumpy 2023-07-05T09:21:33.142340-0400 INFO Step 1000
+bumpy 2023-07-05T09:21:33.142734-0400 INFO holdout_cost_bumpy 0.213521
+bumpy 2023-07-05T09:21:33.143001-0400 INFO holdout_cost_bumpy_accuracy 0.669531
+bumpy 2023-07-05T09:21:33.143250-0400 INFO holdout_cost_bumpy_accuracy_random 0.160547
+bumpy 2023-07-05T09:21:33.143520-0400 INFO holdout_cost_l2_reg 0.001185
+bumpy 2023-07-05T09:21:33.143793-0400 INFO holdout_cost_total 0.214706
+bumpy 2023-07-05T09:21:33.148020-0400 INFO train_cost_bumpy 0.203564
+bumpy 2023-07-05T09:21:33.151187-0400 INFO train_cost_bumpy_accuracy 0.706149
+bumpy 2023-07-05T09:21:33.154958-0400 INFO train_cost_bumpy_accuracy_random 0.199863
+bumpy 2023-07-05T09:21:33.157359-0400 INFO train_cost_l2_reg 0.001187
+bumpy 2023-07-05T09:21:33.158716-0400 INFO train_cost_total 0.204751
+bumpy 2023-07-05T09:21:33.159878-0400 DEBUG : total      24.9 (100.0%)
+bumpy 2023-07-05T09:21:33.160004-0400 DEBUG : train      23.8 (95.6%)
+bumpy 2023-07-05T09:21:33.160093-0400 DEBUG : holdout    1.1 (4.3%)
+bumpy 2023-07-05T09:21:33.160175-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:21:33.160255-0400 DEBUG 
+bumpy 2023-07-05T09:21:54.794744-0400 INFO 
+bumpy 2023-07-05T09:21:54.795531-0400 INFO Step 2000
+bumpy 2023-07-05T09:21:54.795968-0400 INFO holdout_cost_bumpy 0.193905
+bumpy 2023-07-05T09:21:54.796357-0400 INFO holdout_cost_bumpy_accuracy 0.759180
+bumpy 2023-07-05T09:21:54.796681-0400 INFO holdout_cost_bumpy_accuracy_random 0.163672
+bumpy 2023-07-05T09:21:54.796994-0400 INFO holdout_cost_l2_reg 0.001106
+bumpy 2023-07-05T09:21:54.797257-0400 INFO holdout_cost_total 0.195011
+bumpy 2023-07-05T09:21:54.800983-0400 INFO train_cost_bumpy 0.183430
+bumpy 2023-07-05T09:21:54.804165-0400 INFO train_cost_bumpy_accuracy 0.773059
+bumpy 2023-07-05T09:21:54.807374-0400 INFO train_cost_bumpy_accuracy_random 0.201523
+bumpy 2023-07-05T09:21:54.812096-0400 INFO train_cost_l2_reg 0.001108
+bumpy 2023-07-05T09:21:54.813672-0400 INFO train_cost_total 0.184537
+bumpy 2023-07-05T09:21:54.814911-0400 DEBUG : total      21.6 (100.0%)
+bumpy 2023-07-05T09:21:54.815048-0400 DEBUG : train      21.4 (98.8%)
+bumpy 2023-07-05T09:21:54.815137-0400 DEBUG : holdout    0.2 (1.1%)
+bumpy 2023-07-05T09:21:54.815243-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:21:54.815327-0400 DEBUG 
+bumpy 2023-07-05T09:22:16.969066-0400 INFO 
+bumpy 2023-07-05T09:22:16.970222-0400 INFO Step 3000
+bumpy 2023-07-05T09:22:16.970650-0400 INFO holdout_cost_bumpy 0.177975
+bumpy 2023-07-05T09:22:16.970943-0400 INFO holdout_cost_bumpy_accuracy 0.803711
+bumpy 2023-07-05T09:22:16.971219-0400 INFO holdout_cost_bumpy_accuracy_random 0.151953
+bumpy 2023-07-05T09:22:16.971491-0400 INFO holdout_cost_l2_reg 0.001049
+bumpy 2023-07-05T09:22:16.971761-0400 INFO holdout_cost_total 0.179024
+bumpy 2023-07-05T09:22:16.975317-0400 INFO train_cost_bumpy 0.177522
+bumpy 2023-07-05T09:22:16.978755-0400 INFO train_cost_bumpy_accuracy 0.789895
+bumpy 2023-07-05T09:22:16.980427-0400 INFO train_cost_bumpy_accuracy_random 0.199473
+bumpy 2023-07-05T09:22:16.982352-0400 INFO train_cost_l2_reg 0.001050
+bumpy 2023-07-05T09:22:16.984733-0400 INFO train_cost_total 0.178572
+bumpy 2023-07-05T09:22:16.986102-0400 DEBUG : total      22.1 (100.0%)
+bumpy 2023-07-05T09:22:16.986244-0400 DEBUG : train      21.9 (98.8%)
+bumpy 2023-07-05T09:22:16.986341-0400 DEBUG : holdout    0.2 (1.1%)
+bumpy 2023-07-05T09:22:16.986431-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:22:16.986518-0400 DEBUG 
+bumpy 2023-07-05T09:22:39.668051-0400 INFO 
+bumpy 2023-07-05T09:22:39.670187-0400 INFO Step 4000
+bumpy 2023-07-05T09:22:39.670602-0400 INFO holdout_cost_bumpy 0.178571
+bumpy 2023-07-05T09:22:39.670946-0400 INFO holdout_cost_bumpy_accuracy 0.813281
+bumpy 2023-07-05T09:22:39.671235-0400 INFO holdout_cost_bumpy_accuracy_random 0.149805
+bumpy 2023-07-05T09:22:39.671514-0400 INFO holdout_cost_l2_reg 0.001006
+bumpy 2023-07-05T09:22:39.671718-0400 INFO holdout_cost_total 0.179577
+bumpy 2023-07-05T09:22:39.674310-0400 INFO train_cost_bumpy 0.173642
+bumpy 2023-07-05T09:22:39.677228-0400 INFO train_cost_bumpy_accuracy 0.791781
+bumpy 2023-07-05T09:22:39.678673-0400 INFO train_cost_bumpy_accuracy_random 0.204766
+bumpy 2023-07-05T09:22:39.680153-0400 INFO train_cost_l2_reg 0.001007
+bumpy 2023-07-05T09:22:39.681916-0400 INFO train_cost_total 0.174649
+bumpy 2023-07-05T09:22:39.683407-0400 DEBUG : total      22.7 (100.0%)
+bumpy 2023-07-05T09:22:39.683582-0400 DEBUG : train      22.4 (98.7%)
+bumpy 2023-07-05T09:22:39.683697-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:22:39.683807-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:22:39.683913-0400 DEBUG 
+bumpy 2023-07-05T09:23:03.863759-0400 INFO 
+bumpy 2023-07-05T09:23:03.864719-0400 INFO Step 5000
+bumpy 2023-07-05T09:23:03.865151-0400 INFO holdout_cost_bumpy 0.172697
+bumpy 2023-07-05T09:23:03.865452-0400 INFO holdout_cost_bumpy_accuracy 0.804883
+bumpy 2023-07-05T09:23:03.865741-0400 INFO holdout_cost_bumpy_accuracy_random 0.143945
+bumpy 2023-07-05T09:23:03.866022-0400 INFO holdout_cost_l2_reg 0.000973
+bumpy 2023-07-05T09:23:03.866301-0400 INFO holdout_cost_total 0.173669
+bumpy 2023-07-05T09:23:03.870132-0400 INFO train_cost_bumpy 0.171847
+bumpy 2023-07-05T09:23:03.874266-0400 INFO train_cost_bumpy_accuracy 0.800848
+bumpy 2023-07-05T09:23:03.879453-0400 INFO train_cost_bumpy_accuracy_random 0.201184
+bumpy 2023-07-05T09:23:03.881557-0400 INFO train_cost_l2_reg 0.000974
+bumpy 2023-07-05T09:23:03.882980-0400 INFO train_cost_total 0.172820
+bumpy 2023-07-05T09:23:03.884188-0400 DEBUG : total      24.2 (100.0%)
+bumpy 2023-07-05T09:23:03.884325-0400 DEBUG : train      23.9 (98.9%)
+bumpy 2023-07-05T09:23:03.884419-0400 DEBUG : holdout    0.3 (1.0%)
+bumpy 2023-07-05T09:23:03.884506-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:23:03.884610-0400 DEBUG 
+bumpy 2023-07-05T09:23:28.580285-0400 INFO 
+bumpy 2023-07-05T09:23:28.581139-0400 INFO Step 6000
+bumpy 2023-07-05T09:23:28.581531-0400 INFO holdout_cost_bumpy 0.167466
+bumpy 2023-07-05T09:23:28.581823-0400 INFO holdout_cost_bumpy_accuracy 0.828906
+bumpy 2023-07-05T09:23:28.582096-0400 INFO holdout_cost_bumpy_accuracy_random 0.144531
+bumpy 2023-07-05T09:23:28.582346-0400 INFO holdout_cost_l2_reg 0.000946
+bumpy 2023-07-05T09:23:28.582616-0400 INFO holdout_cost_total 0.168411
+bumpy 2023-07-05T09:23:28.585214-0400 INFO train_cost_bumpy 0.168260
+bumpy 2023-07-05T09:23:28.586705-0400 INFO train_cost_bumpy_accuracy 0.810105
+bumpy 2023-07-05T09:23:28.587975-0400 INFO train_cost_bumpy_accuracy_random 0.196684
+bumpy 2023-07-05T09:23:28.589524-0400 INFO train_cost_l2_reg 0.000946
+bumpy 2023-07-05T09:23:28.590820-0400 INFO train_cost_total 0.169206
+bumpy 2023-07-05T09:23:28.592060-0400 DEBUG : total      24.7 (100.0%)
+bumpy 2023-07-05T09:23:28.592289-0400 DEBUG : train      24.4 (98.9%)
+bumpy 2023-07-05T09:23:28.592462-0400 DEBUG : holdout    0.3 (1.0%)
+bumpy 2023-07-05T09:23:28.592597-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:23:28.592695-0400 DEBUG 
+bumpy 2023-07-05T09:23:53.263036-0400 INFO 
+bumpy 2023-07-05T09:23:53.263736-0400 INFO Step 7000
+bumpy 2023-07-05T09:23:53.264082-0400 INFO holdout_cost_bumpy 0.173490
+bumpy 2023-07-05T09:23:53.264371-0400 INFO holdout_cost_bumpy_accuracy 0.834961
+bumpy 2023-07-05T09:23:53.264760-0400 INFO holdout_cost_bumpy_accuracy_random 0.141992
+bumpy 2023-07-05T09:23:53.265042-0400 INFO holdout_cost_l2_reg 0.000924
+bumpy 2023-07-05T09:23:53.265359-0400 INFO holdout_cost_total 0.174414
+bumpy 2023-07-05T09:23:53.270547-0400 INFO train_cost_bumpy 0.167569
+bumpy 2023-07-05T09:23:53.273231-0400 INFO train_cost_bumpy_accuracy 0.808289
+bumpy 2023-07-05T09:23:53.274850-0400 INFO train_cost_bumpy_accuracy_random 0.203344
+bumpy 2023-07-05T09:23:53.276503-0400 INFO train_cost_l2_reg 0.000925
+bumpy 2023-07-05T09:23:53.278112-0400 INFO train_cost_total 0.168494
+bumpy 2023-07-05T09:23:53.279390-0400 DEBUG : total      24.7 (100.0%)
+bumpy 2023-07-05T09:23:53.279546-0400 DEBUG : train      24.4 (98.9%)
+bumpy 2023-07-05T09:23:53.279642-0400 DEBUG : holdout    0.3 (1.0%)
+bumpy 2023-07-05T09:23:53.279732-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:23:53.279821-0400 DEBUG 
+bumpy 2023-07-05T09:24:17.879547-0400 INFO 
+bumpy 2023-07-05T09:24:17.880206-0400 INFO Step 8000
+bumpy 2023-07-05T09:24:17.880545-0400 INFO holdout_cost_bumpy 0.173840
+bumpy 2023-07-05T09:24:17.880735-0400 INFO holdout_cost_bumpy_accuracy 0.810352
+bumpy 2023-07-05T09:24:17.880882-0400 INFO holdout_cost_bumpy_accuracy_random 0.155469
+bumpy 2023-07-05T09:24:17.881025-0400 INFO holdout_cost_l2_reg 0.000906
+bumpy 2023-07-05T09:24:17.881166-0400 INFO holdout_cost_total 0.174746
+bumpy 2023-07-05T09:24:17.882583-0400 INFO train_cost_bumpy 0.166621
+bumpy 2023-07-05T09:24:17.883962-0400 INFO train_cost_bumpy_accuracy 0.812176
+bumpy 2023-07-05T09:24:17.885338-0400 INFO train_cost_bumpy_accuracy_random 0.195051
+bumpy 2023-07-05T09:24:17.886708-0400 INFO train_cost_l2_reg 0.000906
+bumpy 2023-07-05T09:24:17.888157-0400 INFO train_cost_total 0.167527
+bumpy 2023-07-05T09:24:17.891765-0400 DEBUG : total      24.6 (100.0%)
+bumpy 2023-07-05T09:24:17.891989-0400 DEBUG : train      24.3 (98.9%)
+bumpy 2023-07-05T09:24:17.892143-0400 DEBUG : holdout    0.3 (1.0%)
+bumpy 2023-07-05T09:24:17.892290-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:24:17.892436-0400 DEBUG 
+bumpy 2023-07-05T09:24:42.395683-0400 INFO 
+bumpy 2023-07-05T09:24:42.396412-0400 INFO Step 9000
+bumpy 2023-07-05T09:24:42.396787-0400 INFO holdout_cost_bumpy 0.178679
+bumpy 2023-07-05T09:24:42.397072-0400 INFO holdout_cost_bumpy_accuracy 0.832031
+bumpy 2023-07-05T09:24:42.397348-0400 INFO holdout_cost_bumpy_accuracy_random 0.152930
+bumpy 2023-07-05T09:24:42.397606-0400 INFO holdout_cost_l2_reg 0.000891
+bumpy 2023-07-05T09:24:42.397875-0400 INFO holdout_cost_total 0.179570
+bumpy 2023-07-05T09:24:42.401750-0400 INFO train_cost_bumpy 0.166451
+bumpy 2023-07-05T09:24:42.403311-0400 INFO train_cost_bumpy_accuracy 0.811230
+bumpy 2023-07-05T09:24:42.404698-0400 INFO train_cost_bumpy_accuracy_random 0.201945
+bumpy 2023-07-05T09:24:42.406117-0400 INFO train_cost_l2_reg 0.000891
+bumpy 2023-07-05T09:24:42.407663-0400 INFO train_cost_total 0.167342
+bumpy 2023-07-05T09:24:42.409361-0400 DEBUG : total      24.5 (100.0%)
+bumpy 2023-07-05T09:24:42.409559-0400 DEBUG : train      24.2 (98.9%)
+bumpy 2023-07-05T09:24:42.409669-0400 DEBUG : holdout    0.3 (1.0%)
+bumpy 2023-07-05T09:24:42.409769-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:24:42.409867-0400 DEBUG 
+bumpy 2023-07-05T09:25:07.646779-0400 INFO 
+bumpy 2023-07-05T09:25:07.647561-0400 INFO Step 10000
+bumpy 2023-07-05T09:25:07.647819-0400 INFO holdout_cost_bumpy 0.176867
+bumpy 2023-07-05T09:25:07.648071-0400 INFO holdout_cost_bumpy_accuracy 0.833398
+bumpy 2023-07-05T09:25:07.648267-0400 INFO holdout_cost_bumpy_accuracy_random 0.157031
+bumpy 2023-07-05T09:25:07.648438-0400 INFO holdout_cost_l2_reg 0.000882
+bumpy 2023-07-05T09:25:07.648626-0400 INFO holdout_cost_total 0.177749
+bumpy 2023-07-05T09:25:07.649963-0400 INFO train_cost_bumpy 0.162103
+bumpy 2023-07-05T09:25:07.651215-0400 INFO train_cost_bumpy_accuracy 0.817895
+bumpy 2023-07-05T09:25:07.652415-0400 INFO train_cost_bumpy_accuracy_random 0.200344
+bumpy 2023-07-05T09:25:07.653692-0400 INFO train_cost_l2_reg 0.000882
+bumpy 2023-07-05T09:25:07.654951-0400 INFO train_cost_total 0.162985
+bumpy 2023-07-05T09:25:07.656018-0400 DEBUG : total      25.2 (100.0%)
+bumpy 2023-07-05T09:25:07.656145-0400 DEBUG : train      24.3 (96.2%)
+bumpy 2023-07-05T09:25:07.656285-0400 DEBUG : save       0.7 (2.7%)
+bumpy 2023-07-05T09:25:07.656418-0400 DEBUG : holdout    0.3 (1.0%)
+bumpy 2023-07-05T09:25:07.656507-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:25:07.656629-0400 DEBUG 
+bumpy 2023-07-05T09:25:32.380801-0400 INFO 
+bumpy 2023-07-05T09:25:32.381691-0400 INFO Step 11000
+bumpy 2023-07-05T09:25:32.382110-0400 INFO holdout_cost_bumpy 0.168716
+bumpy 2023-07-05T09:25:32.382446-0400 INFO holdout_cost_bumpy_accuracy 0.837695
+bumpy 2023-07-05T09:25:32.382757-0400 INFO holdout_cost_bumpy_accuracy_random 0.158984
+bumpy 2023-07-05T09:25:32.383047-0400 INFO holdout_cost_l2_reg 0.000872
+bumpy 2023-07-05T09:25:32.383342-0400 INFO holdout_cost_total 0.169587
+bumpy 2023-07-05T09:25:32.387886-0400 INFO train_cost_bumpy 0.162056
+bumpy 2023-07-05T09:25:32.389731-0400 INFO train_cost_bumpy_accuracy 0.812836
+bumpy 2023-07-05T09:25:32.391206-0400 INFO train_cost_bumpy_accuracy_random 0.204723
+bumpy 2023-07-05T09:25:32.393860-0400 INFO train_cost_l2_reg 0.000872
+bumpy 2023-07-05T09:25:32.395698-0400 INFO train_cost_total 0.162928
+bumpy 2023-07-05T09:25:32.397116-0400 DEBUG : total      24.7 (100.0%)
+bumpy 2023-07-05T09:25:32.397266-0400 DEBUG : train      24.4 (98.9%)
+bumpy 2023-07-05T09:25:32.397370-0400 DEBUG : holdout    0.3 (1.0%)
+bumpy 2023-07-05T09:25:32.397469-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:25:32.397563-0400 DEBUG 
+bumpy 2023-07-05T09:25:57.069340-0400 INFO 
+bumpy 2023-07-05T09:25:57.070211-0400 INFO Step 12000
+bumpy 2023-07-05T09:25:57.070608-0400 INFO holdout_cost_bumpy 0.180324
+bumpy 2023-07-05T09:25:57.070922-0400 INFO holdout_cost_bumpy_accuracy 0.823047
+bumpy 2023-07-05T09:25:57.071203-0400 INFO holdout_cost_bumpy_accuracy_random 0.159570
+bumpy 2023-07-05T09:25:57.071477-0400 INFO holdout_cost_l2_reg 0.000867
+bumpy 2023-07-05T09:25:57.071755-0400 INFO holdout_cost_total 0.181191
+bumpy 2023-07-05T09:25:57.075381-0400 INFO train_cost_bumpy 0.160545
+bumpy 2023-07-05T09:25:57.080081-0400 INFO train_cost_bumpy_accuracy 0.819180
+bumpy 2023-07-05T09:25:57.085347-0400 INFO train_cost_bumpy_accuracy_random 0.202477
+bumpy 2023-07-05T09:25:57.089020-0400 INFO train_cost_l2_reg 0.000867
+bumpy 2023-07-05T09:25:57.090514-0400 INFO train_cost_total 0.161412
+bumpy 2023-07-05T09:25:57.091861-0400 DEBUG : total      24.7 (100.0%)
+bumpy 2023-07-05T09:25:57.091996-0400 DEBUG : train      24.4 (98.8%)
+bumpy 2023-07-05T09:25:57.092098-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:25:57.092195-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:25:57.092289-0400 DEBUG 
+bumpy 2023-07-05T09:26:21.912744-0400 INFO 
+bumpy 2023-07-05T09:26:21.913555-0400 INFO Step 13000
+bumpy 2023-07-05T09:26:21.913959-0400 INFO holdout_cost_bumpy 0.159633
+bumpy 2023-07-05T09:26:21.914300-0400 INFO holdout_cost_bumpy_accuracy 0.846680
+bumpy 2023-07-05T09:26:21.914615-0400 INFO holdout_cost_bumpy_accuracy_random 0.156641
+bumpy 2023-07-05T09:26:21.914892-0400 INFO holdout_cost_l2_reg 0.000865
+bumpy 2023-07-05T09:26:21.915197-0400 INFO holdout_cost_total 0.160498
+bumpy 2023-07-05T09:26:21.919498-0400 INFO train_cost_bumpy 0.158944
+bumpy 2023-07-05T09:26:21.924178-0400 INFO train_cost_bumpy_accuracy 0.821184
+bumpy 2023-07-05T09:26:21.927743-0400 INFO train_cost_bumpy_accuracy_random 0.199867
+bumpy 2023-07-05T09:26:21.929365-0400 INFO train_cost_l2_reg 0.000865
+bumpy 2023-07-05T09:26:21.930843-0400 INFO train_cost_total 0.159809
+bumpy 2023-07-05T09:26:21.932193-0400 DEBUG : total      24.8 (100.0%)
+bumpy 2023-07-05T09:26:21.932335-0400 DEBUG : train      24.5 (98.8%)
+bumpy 2023-07-05T09:26:21.932458-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:26:21.932612-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:26:21.932726-0400 DEBUG 
+bumpy 2023-07-05T09:26:46.835303-0400 INFO 
+bumpy 2023-07-05T09:26:46.836212-0400 INFO Step 14000
+bumpy 2023-07-05T09:26:46.836633-0400 INFO holdout_cost_bumpy 0.160181
+bumpy 2023-07-05T09:26:46.836956-0400 INFO holdout_cost_bumpy_accuracy 0.851562
+bumpy 2023-07-05T09:26:46.837279-0400 INFO holdout_cost_bumpy_accuracy_random 0.147656
+bumpy 2023-07-05T09:26:46.837570-0400 INFO holdout_cost_l2_reg 0.000868
+bumpy 2023-07-05T09:26:46.837851-0400 INFO holdout_cost_total 0.161049
+bumpy 2023-07-05T09:26:46.839844-0400 INFO train_cost_bumpy 0.157651
+bumpy 2023-07-05T09:26:46.841415-0400 INFO train_cost_bumpy_accuracy 0.825398
+bumpy 2023-07-05T09:26:46.842963-0400 INFO train_cost_bumpy_accuracy_random 0.197883
+bumpy 2023-07-05T09:26:46.844361-0400 INFO train_cost_l2_reg 0.000868
+bumpy 2023-07-05T09:26:46.847343-0400 INFO train_cost_total 0.158518
+bumpy 2023-07-05T09:26:46.848741-0400 DEBUG : total      24.9 (100.0%)
+bumpy 2023-07-05T09:26:46.848923-0400 DEBUG : train      24.6 (98.9%)
+bumpy 2023-07-05T09:26:46.849020-0400 DEBUG : holdout    0.3 (1.0%)
+bumpy 2023-07-05T09:26:46.849110-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:26:46.849197-0400 DEBUG 
+bumpy 2023-07-05T09:27:11.720774-0400 INFO 
+bumpy 2023-07-05T09:27:11.721719-0400 INFO Step 15000
+bumpy 2023-07-05T09:27:11.722164-0400 INFO holdout_cost_bumpy 0.163807
+bumpy 2023-07-05T09:27:11.722470-0400 INFO holdout_cost_bumpy_accuracy 0.846680
+bumpy 2023-07-05T09:27:11.722766-0400 INFO holdout_cost_bumpy_accuracy_random 0.146680
+bumpy 2023-07-05T09:27:11.723050-0400 INFO holdout_cost_l2_reg 0.000872
+bumpy 2023-07-05T09:27:11.723360-0400 INFO holdout_cost_total 0.164680
+bumpy 2023-07-05T09:27:11.726722-0400 INFO train_cost_bumpy 0.157202
+bumpy 2023-07-05T09:27:11.728954-0400 INFO train_cost_bumpy_accuracy 0.822406
+bumpy 2023-07-05T09:27:11.730526-0400 INFO train_cost_bumpy_accuracy_random 0.201672
+bumpy 2023-07-05T09:27:11.733314-0400 INFO train_cost_l2_reg 0.000872
+bumpy 2023-07-05T09:27:11.734976-0400 INFO train_cost_total 0.158074
+bumpy 2023-07-05T09:27:11.736665-0400 DEBUG : total      24.9 (100.0%)
+bumpy 2023-07-05T09:27:11.736855-0400 DEBUG : train      24.6 (98.8%)
+bumpy 2023-07-05T09:27:11.736979-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:27:11.737098-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:27:11.737210-0400 DEBUG 
+bumpy 2023-07-05T09:27:36.740713-0400 INFO 
+bumpy 2023-07-05T09:27:36.741507-0400 INFO Step 16000
+bumpy 2023-07-05T09:27:36.741993-0400 INFO holdout_cost_bumpy 0.157878
+bumpy 2023-07-05T09:27:36.742385-0400 INFO holdout_cost_bumpy_accuracy 0.845898
+bumpy 2023-07-05T09:27:36.742699-0400 INFO holdout_cost_bumpy_accuracy_random 0.147656
+bumpy 2023-07-05T09:27:36.742986-0400 INFO holdout_cost_l2_reg 0.000880
+bumpy 2023-07-05T09:27:36.743272-0400 INFO holdout_cost_total 0.158757
+bumpy 2023-07-05T09:27:36.746322-0400 INFO train_cost_bumpy 0.155223
+bumpy 2023-07-05T09:27:36.749792-0400 INFO train_cost_bumpy_accuracy 0.824906
+bumpy 2023-07-05T09:27:36.753205-0400 INFO train_cost_bumpy_accuracy_random 0.197910
+bumpy 2023-07-05T09:27:36.754960-0400 INFO train_cost_l2_reg 0.000880
+bumpy 2023-07-05T09:27:36.756672-0400 INFO train_cost_total 0.156103
+bumpy 2023-07-05T09:27:36.758088-0400 DEBUG : total      25.0 (100.0%)
+bumpy 2023-07-05T09:27:36.758229-0400 DEBUG : train      24.7 (98.9%)
+bumpy 2023-07-05T09:27:36.758324-0400 DEBUG : holdout    0.3 (1.0%)
+bumpy 2023-07-05T09:27:36.758414-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:27:36.758501-0400 DEBUG 
+bumpy 2023-07-05T09:28:02.101060-0400 INFO 
+bumpy 2023-07-05T09:28:02.102395-0400 INFO Step 17000
+bumpy 2023-07-05T09:28:02.102877-0400 INFO holdout_cost_bumpy 0.174505
+bumpy 2023-07-05T09:28:02.103264-0400 INFO holdout_cost_bumpy_accuracy 0.830664
+bumpy 2023-07-05T09:28:02.103581-0400 INFO holdout_cost_bumpy_accuracy_random 0.159375
+bumpy 2023-07-05T09:28:02.103925-0400 INFO holdout_cost_l2_reg 0.000884
+bumpy 2023-07-05T09:28:02.104236-0400 INFO holdout_cost_total 0.175389
+bumpy 2023-07-05T09:28:02.108112-0400 INFO train_cost_bumpy 0.154168
+bumpy 2023-07-05T09:28:02.110044-0400 INFO train_cost_bumpy_accuracy 0.830023
+bumpy 2023-07-05T09:28:02.111568-0400 INFO train_cost_bumpy_accuracy_random 0.198746
+bumpy 2023-07-05T09:28:02.113021-0400 INFO train_cost_l2_reg 0.000884
+bumpy 2023-07-05T09:28:02.114568-0400 INFO train_cost_total 0.155051
+bumpy 2023-07-05T09:28:02.116036-0400 DEBUG : total      25.3 (100.0%)
+bumpy 2023-07-05T09:28:02.116225-0400 DEBUG : train      25.0 (98.8%)
+bumpy 2023-07-05T09:28:02.116326-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:28:02.116417-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:28:02.116505-0400 DEBUG 
+bumpy 2023-07-05T09:28:27.089265-0400 INFO 
+bumpy 2023-07-05T09:28:27.090157-0400 INFO Step 18000
+bumpy 2023-07-05T09:28:27.090594-0400 INFO holdout_cost_bumpy 0.176094
+bumpy 2023-07-05T09:28:27.090936-0400 INFO holdout_cost_bumpy_accuracy 0.852539
+bumpy 2023-07-05T09:28:27.091270-0400 INFO holdout_cost_bumpy_accuracy_random 0.177539
+bumpy 2023-07-05T09:28:27.091587-0400 INFO holdout_cost_l2_reg 0.000890
+bumpy 2023-07-05T09:28:27.091950-0400 INFO holdout_cost_total 0.176984
+bumpy 2023-07-05T09:28:27.095510-0400 INFO train_cost_bumpy 0.151761
+bumpy 2023-07-05T09:28:27.097065-0400 INFO train_cost_bumpy_accuracy 0.832379
+bumpy 2023-07-05T09:28:27.098463-0400 INFO train_cost_bumpy_accuracy_random 0.199582
+bumpy 2023-07-05T09:28:27.099909-0400 INFO train_cost_l2_reg 0.000890
+bumpy 2023-07-05T09:28:27.101550-0400 INFO train_cost_total 0.152651
+bumpy 2023-07-05T09:28:27.103688-0400 DEBUG : total      25.0 (100.0%)
+bumpy 2023-07-05T09:28:27.103915-0400 DEBUG : train      24.7 (98.8%)
+bumpy 2023-07-05T09:28:27.104046-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:28:27.104166-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:28:27.104282-0400 DEBUG 
+bumpy 2023-07-05T09:28:52.387234-0400 INFO 
+bumpy 2023-07-05T09:28:52.388049-0400 INFO Step 19000
+bumpy 2023-07-05T09:28:52.388458-0400 INFO holdout_cost_bumpy 0.175443
+bumpy 2023-07-05T09:28:52.388811-0400 INFO holdout_cost_bumpy_accuracy 0.855078
+bumpy 2023-07-05T09:28:52.389109-0400 INFO holdout_cost_bumpy_accuracy_random 0.161914
+bumpy 2023-07-05T09:28:52.389399-0400 INFO holdout_cost_l2_reg 0.000890
+bumpy 2023-07-05T09:28:52.389714-0400 INFO holdout_cost_total 0.176333
+bumpy 2023-07-05T09:28:52.393230-0400 INFO train_cost_bumpy 0.150956
+bumpy 2023-07-05T09:28:52.394858-0400 INFO train_cost_bumpy_accuracy 0.830723
+bumpy 2023-07-05T09:28:52.396350-0400 INFO train_cost_bumpy_accuracy_random 0.203801
+bumpy 2023-07-05T09:28:52.400692-0400 INFO train_cost_l2_reg 0.000890
+bumpy 2023-07-05T09:28:52.405026-0400 INFO train_cost_total 0.151846
+bumpy 2023-07-05T09:28:52.406463-0400 DEBUG : total      25.3 (100.0%)
+bumpy 2023-07-05T09:28:52.406609-0400 DEBUG : train      25.0 (98.8%)
+bumpy 2023-07-05T09:28:52.406713-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:28:52.406809-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:28:52.406903-0400 DEBUG 
+bumpy 2023-07-05T09:29:19.749531-0400 INFO 
+bumpy 2023-07-05T09:29:19.750527-0400 INFO Step 20000
+bumpy 2023-07-05T09:29:19.750978-0400 INFO holdout_cost_bumpy 0.158349
+bumpy 2023-07-05T09:29:19.751296-0400 INFO holdout_cost_bumpy_accuracy 0.838086
+bumpy 2023-07-05T09:29:19.751640-0400 INFO holdout_cost_bumpy_accuracy_random 0.146680
+bumpy 2023-07-05T09:29:19.752054-0400 INFO holdout_cost_l2_reg 0.000890
+bumpy 2023-07-05T09:29:19.752398-0400 INFO holdout_cost_total 0.159239
+bumpy 2023-07-05T09:29:19.756197-0400 INFO train_cost_bumpy 0.150721
+bumpy 2023-07-05T09:29:19.761093-0400 INFO train_cost_bumpy_accuracy 0.833367
+bumpy 2023-07-05T09:29:19.764876-0400 INFO train_cost_bumpy_accuracy_random 0.200898
+bumpy 2023-07-05T09:29:19.768932-0400 INFO train_cost_l2_reg 0.000890
+bumpy 2023-07-05T09:29:19.773143-0400 INFO train_cost_total 0.151612
+bumpy 2023-07-05T09:29:19.776305-0400 DEBUG : total      27.3 (100.0%)
+bumpy 2023-07-05T09:29:19.776640-0400 DEBUG : train      26.9 (98.6%)
+bumpy 2023-07-05T09:29:19.776863-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:29:19.777095-0400 DEBUG : save       0.1 (0.3%)
+bumpy 2023-07-05T09:29:19.777279-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:29:19.777439-0400 DEBUG 
+bumpy 2023-07-05T09:29:46.075353-0400 INFO 
+bumpy 2023-07-05T09:29:46.076436-0400 INFO Step 21000
+bumpy 2023-07-05T09:29:46.076967-0400 INFO holdout_cost_bumpy 0.167200
+bumpy 2023-07-05T09:29:46.077350-0400 INFO holdout_cost_bumpy_accuracy 0.857812
+bumpy 2023-07-05T09:29:46.077677-0400 INFO holdout_cost_bumpy_accuracy_random 0.162305
+bumpy 2023-07-05T09:29:46.077988-0400 INFO holdout_cost_l2_reg 0.000888
+bumpy 2023-07-05T09:29:46.078289-0400 INFO holdout_cost_total 0.168088
+bumpy 2023-07-05T09:29:46.079930-0400 INFO train_cost_bumpy 0.149528
+bumpy 2023-07-05T09:29:46.081373-0400 INFO train_cost_bumpy_accuracy 0.838402
+bumpy 2023-07-05T09:29:46.082792-0400 INFO train_cost_bumpy_accuracy_random 0.197770
+bumpy 2023-07-05T09:29:46.084203-0400 INFO train_cost_l2_reg 0.000888
+bumpy 2023-07-05T09:29:46.087422-0400 INFO train_cost_total 0.150416
+bumpy 2023-07-05T09:29:46.094211-0400 DEBUG : total      26.3 (100.0%)
+bumpy 2023-07-05T09:29:46.094547-0400 DEBUG : train      26.0 (98.8%)
+bumpy 2023-07-05T09:29:46.094735-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:29:46.094887-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:29:46.095032-0400 DEBUG 
+bumpy 2023-07-05T09:30:12.599849-0400 INFO 
+bumpy 2023-07-05T09:30:12.600926-0400 INFO Step 22000
+bumpy 2023-07-05T09:30:12.601586-0400 INFO holdout_cost_bumpy 0.162762
+bumpy 2023-07-05T09:30:12.602010-0400 INFO holdout_cost_bumpy_accuracy 0.851367
+bumpy 2023-07-05T09:30:12.602331-0400 INFO holdout_cost_bumpy_accuracy_random 0.143359
+bumpy 2023-07-05T09:30:12.602619-0400 INFO holdout_cost_l2_reg 0.000887
+bumpy 2023-07-05T09:30:12.602918-0400 INFO holdout_cost_total 0.163648
+bumpy 2023-07-05T09:30:12.606536-0400 INFO train_cost_bumpy 0.148146
+bumpy 2023-07-05T09:30:12.609424-0400 INFO train_cost_bumpy_accuracy 0.836441
+bumpy 2023-07-05T09:30:12.610954-0400 INFO train_cost_bumpy_accuracy_random 0.202523
+bumpy 2023-07-05T09:30:12.612562-0400 INFO train_cost_l2_reg 0.000887
+bumpy 2023-07-05T09:30:12.614413-0400 INFO train_cost_total 0.149033
+bumpy 2023-07-05T09:30:12.616001-0400 DEBUG : total      26.5 (100.0%)
+bumpy 2023-07-05T09:30:12.616211-0400 DEBUG : train      26.2 (98.9%)
+bumpy 2023-07-05T09:30:12.616310-0400 DEBUG : holdout    0.3 (1.0%)
+bumpy 2023-07-05T09:30:12.616398-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:30:12.616483-0400 DEBUG 
+bumpy 2023-07-05T09:30:38.650082-0400 INFO 
+bumpy 2023-07-05T09:30:38.651239-0400 INFO Step 23000
+bumpy 2023-07-05T09:30:38.651762-0400 INFO holdout_cost_bumpy 0.150971
+bumpy 2023-07-05T09:30:38.652152-0400 INFO holdout_cost_bumpy_accuracy 0.861328
+bumpy 2023-07-05T09:30:38.652498-0400 INFO holdout_cost_bumpy_accuracy_random 0.127930
+bumpy 2023-07-05T09:30:38.652805-0400 INFO holdout_cost_l2_reg 0.000885
+bumpy 2023-07-05T09:30:38.653081-0400 INFO holdout_cost_total 0.151856
+bumpy 2023-07-05T09:30:38.657016-0400 INFO train_cost_bumpy 0.148853
+bumpy 2023-07-05T09:30:38.658525-0400 INFO train_cost_bumpy_accuracy 0.833824
+bumpy 2023-07-05T09:30:38.659990-0400 INFO train_cost_bumpy_accuracy_random 0.194719
+bumpy 2023-07-05T09:30:38.661492-0400 INFO train_cost_l2_reg 0.000885
+bumpy 2023-07-05T09:30:38.663128-0400 INFO train_cost_total 0.149738
+bumpy 2023-07-05T09:30:38.664595-0400 DEBUG : total      26.0 (100.0%)
+bumpy 2023-07-05T09:30:38.664752-0400 DEBUG : train      25.7 (98.8%)
+bumpy 2023-07-05T09:30:38.664859-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:30:38.664962-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:30:38.665061-0400 DEBUG 
+bumpy 2023-07-05T09:31:03.791505-0400 INFO 
+bumpy 2023-07-05T09:31:03.792544-0400 INFO Step 24000
+bumpy 2023-07-05T09:31:03.793075-0400 INFO holdout_cost_bumpy 0.158905
+bumpy 2023-07-05T09:31:03.793422-0400 INFO holdout_cost_bumpy_accuracy 0.842383
+bumpy 2023-07-05T09:31:03.793771-0400 INFO holdout_cost_bumpy_accuracy_random 0.166406
+bumpy 2023-07-05T09:31:03.794111-0400 INFO holdout_cost_l2_reg 0.000884
+bumpy 2023-07-05T09:31:03.794443-0400 INFO holdout_cost_total 0.159789
+bumpy 2023-07-05T09:31:03.798490-0400 INFO train_cost_bumpy 0.145526
+bumpy 2023-07-05T09:31:03.804123-0400 INFO train_cost_bumpy_accuracy 0.833711
+bumpy 2023-07-05T09:31:03.806489-0400 INFO train_cost_bumpy_accuracy_random 0.199047
+bumpy 2023-07-05T09:31:03.808120-0400 INFO train_cost_l2_reg 0.000884
+bumpy 2023-07-05T09:31:03.809654-0400 INFO train_cost_total 0.146410
+bumpy 2023-07-05T09:31:03.811040-0400 DEBUG : total      25.1 (100.0%)
+bumpy 2023-07-05T09:31:03.811184-0400 DEBUG : train      24.8 (98.8%)
+bumpy 2023-07-05T09:31:03.811287-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:31:03.811386-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:31:03.811481-0400 DEBUG 
+bumpy 2023-07-05T09:31:28.862057-0400 INFO 
+bumpy 2023-07-05T09:31:28.863104-0400 INFO Step 25000
+bumpy 2023-07-05T09:31:28.863554-0400 INFO holdout_cost_bumpy 0.148247
+bumpy 2023-07-05T09:31:28.863858-0400 INFO holdout_cost_bumpy_accuracy 0.860742
+bumpy 2023-07-05T09:31:28.864151-0400 INFO holdout_cost_bumpy_accuracy_random 0.125977
+bumpy 2023-07-05T09:31:28.864439-0400 INFO holdout_cost_l2_reg 0.000884
+bumpy 2023-07-05T09:31:28.864677-0400 INFO holdout_cost_total 0.149131
+bumpy 2023-07-05T09:31:28.866240-0400 INFO train_cost_bumpy 0.145606
+bumpy 2023-07-05T09:31:28.867742-0400 INFO train_cost_bumpy_accuracy 0.836359
+bumpy 2023-07-05T09:31:28.869224-0400 INFO train_cost_bumpy_accuracy_random 0.202059
+bumpy 2023-07-05T09:31:28.870661-0400 INFO train_cost_l2_reg 0.000884
+bumpy 2023-07-05T09:31:28.872141-0400 INFO train_cost_total 0.146491
+bumpy 2023-07-05T09:31:28.873824-0400 DEBUG : total      25.0 (100.0%)
+bumpy 2023-07-05T09:31:28.874050-0400 DEBUG : train      24.8 (98.8%)
+bumpy 2023-07-05T09:31:28.874207-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:31:28.874376-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:31:28.874501-0400 DEBUG 
+bumpy 2023-07-05T09:31:53.812921-0400 INFO 
+bumpy 2023-07-05T09:31:53.813724-0400 INFO Step 26000
+bumpy 2023-07-05T09:31:53.814125-0400 INFO holdout_cost_bumpy 0.170928
+bumpy 2023-07-05T09:31:53.814433-0400 INFO holdout_cost_bumpy_accuracy 0.851172
+bumpy 2023-07-05T09:31:53.814730-0400 INFO holdout_cost_bumpy_accuracy_random 0.160938
+bumpy 2023-07-05T09:31:53.815021-0400 INFO holdout_cost_l2_reg 0.000884
+bumpy 2023-07-05T09:31:53.815312-0400 INFO holdout_cost_total 0.171812
+bumpy 2023-07-05T09:31:53.819160-0400 INFO train_cost_bumpy 0.143664
+bumpy 2023-07-05T09:31:53.823055-0400 INFO train_cost_bumpy_accuracy 0.838965
+bumpy 2023-07-05T09:31:53.828278-0400 INFO train_cost_bumpy_accuracy_random 0.197508
+bumpy 2023-07-05T09:31:53.830058-0400 INFO train_cost_l2_reg 0.000884
+bumpy 2023-07-05T09:31:53.831677-0400 INFO train_cost_total 0.144549
+bumpy 2023-07-05T09:31:53.833259-0400 DEBUG : total      24.9 (100.0%)
+bumpy 2023-07-05T09:31:53.833431-0400 DEBUG : train      24.6 (98.8%)
+bumpy 2023-07-05T09:31:53.833534-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:31:53.833629-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:31:53.833721-0400 DEBUG 
+bumpy 2023-07-05T09:32:18.768832-0400 INFO 
+bumpy 2023-07-05T09:32:18.769782-0400 INFO Step 27000
+bumpy 2023-07-05T09:32:18.770201-0400 INFO holdout_cost_bumpy 0.156964
+bumpy 2023-07-05T09:32:18.770504-0400 INFO holdout_cost_bumpy_accuracy 0.848633
+bumpy 2023-07-05T09:32:18.770831-0400 INFO holdout_cost_bumpy_accuracy_random 0.148047
+bumpy 2023-07-05T09:32:18.771162-0400 INFO holdout_cost_l2_reg 0.000882
+bumpy 2023-07-05T09:32:18.771478-0400 INFO holdout_cost_total 0.157846
+bumpy 2023-07-05T09:32:18.776309-0400 INFO train_cost_bumpy 0.143235
+bumpy 2023-07-05T09:32:18.780942-0400 INFO train_cost_bumpy_accuracy 0.834117
+bumpy 2023-07-05T09:32:18.782741-0400 INFO train_cost_bumpy_accuracy_random 0.205094
+bumpy 2023-07-05T09:32:18.784316-0400 INFO train_cost_l2_reg 0.000882
+bumpy 2023-07-05T09:32:18.785952-0400 INFO train_cost_total 0.144118
+bumpy 2023-07-05T09:32:18.787323-0400 DEBUG : total      24.9 (100.0%)
+bumpy 2023-07-05T09:32:18.787463-0400 DEBUG : train      24.6 (98.8%)
+bumpy 2023-07-05T09:32:18.787581-0400 DEBUG : holdout    0.3 (1.0%)
+bumpy 2023-07-05T09:32:18.787677-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:32:18.787769-0400 DEBUG 
+bumpy 2023-07-05T09:32:43.899637-0400 INFO 
+bumpy 2023-07-05T09:32:43.900772-0400 INFO Step 28000
+bumpy 2023-07-05T09:32:43.901233-0400 INFO holdout_cost_bumpy 0.167766
+bumpy 2023-07-05T09:32:43.901563-0400 INFO holdout_cost_bumpy_accuracy 0.840234
+bumpy 2023-07-05T09:32:43.901882-0400 INFO holdout_cost_bumpy_accuracy_random 0.165820
+bumpy 2023-07-05T09:32:43.902185-0400 INFO holdout_cost_l2_reg 0.000879
+bumpy 2023-07-05T09:32:43.902487-0400 INFO holdout_cost_total 0.168645
+bumpy 2023-07-05T09:32:43.906261-0400 INFO train_cost_bumpy 0.144098
+bumpy 2023-07-05T09:32:43.908056-0400 INFO train_cost_bumpy_accuracy 0.835691
+bumpy 2023-07-05T09:32:43.910942-0400 INFO train_cost_bumpy_accuracy_random 0.201238
+bumpy 2023-07-05T09:32:43.913654-0400 INFO train_cost_l2_reg 0.000879
+bumpy 2023-07-05T09:32:43.915302-0400 INFO train_cost_total 0.144977
+bumpy 2023-07-05T09:32:43.916734-0400 DEBUG : total      25.1 (100.0%)
+bumpy 2023-07-05T09:32:43.916910-0400 DEBUG : train      24.8 (98.9%)
+bumpy 2023-07-05T09:32:43.917015-0400 DEBUG : holdout    0.3 (1.0%)
+bumpy 2023-07-05T09:32:43.917112-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:32:43.917205-0400 DEBUG 
+bumpy 2023-07-05T09:33:09.002834-0400 INFO 
+bumpy 2023-07-05T09:33:09.003975-0400 INFO Step 29000
+bumpy 2023-07-05T09:33:09.004464-0400 INFO holdout_cost_bumpy 0.163971
+bumpy 2023-07-05T09:33:09.004890-0400 INFO holdout_cost_bumpy_accuracy 0.857617
+bumpy 2023-07-05T09:33:09.005209-0400 INFO holdout_cost_bumpy_accuracy_random 0.148242
+bumpy 2023-07-05T09:33:09.005507-0400 INFO holdout_cost_l2_reg 0.000879
+bumpy 2023-07-05T09:33:09.005787-0400 INFO holdout_cost_total 0.164851
+bumpy 2023-07-05T09:33:09.009294-0400 INFO train_cost_bumpy 0.140797
+bumpy 2023-07-05T09:33:09.012784-0400 INFO train_cost_bumpy_accuracy 0.841828
+bumpy 2023-07-05T09:33:09.015836-0400 INFO train_cost_bumpy_accuracy_random 0.195984
+bumpy 2023-07-05T09:33:09.018134-0400 INFO train_cost_l2_reg 0.000879
+bumpy 2023-07-05T09:33:09.021036-0400 INFO train_cost_total 0.141676
+bumpy 2023-07-05T09:33:09.022515-0400 DEBUG : total      25.1 (100.0%)
+bumpy 2023-07-05T09:33:09.022665-0400 DEBUG : train      24.8 (98.8%)
+bumpy 2023-07-05T09:33:09.022767-0400 DEBUG : holdout    0.3 (1.0%)
+bumpy 2023-07-05T09:33:09.022863-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:33:09.022954-0400 DEBUG 
+bumpy 2023-07-05T09:33:34.505905-0400 INFO 
+bumpy 2023-07-05T09:33:34.506620-0400 INFO Step 30000
+bumpy 2023-07-05T09:33:34.506993-0400 INFO holdout_cost_bumpy 0.165088
+bumpy 2023-07-05T09:33:34.507287-0400 INFO holdout_cost_bumpy_accuracy 0.849805
+bumpy 2023-07-05T09:33:34.507482-0400 INFO holdout_cost_bumpy_accuracy_random 0.146875
+bumpy 2023-07-05T09:33:34.507646-0400 INFO holdout_cost_l2_reg 0.000877
+bumpy 2023-07-05T09:33:34.507807-0400 INFO holdout_cost_total 0.165966
+bumpy 2023-07-05T09:33:34.509650-0400 INFO train_cost_bumpy 0.140054
+bumpy 2023-07-05T09:33:34.511251-0400 INFO train_cost_bumpy_accuracy 0.838266
+bumpy 2023-07-05T09:33:34.513078-0400 INFO train_cost_bumpy_accuracy_random 0.202652
+bumpy 2023-07-05T09:33:34.514738-0400 INFO train_cost_l2_reg 0.000877
+bumpy 2023-07-05T09:33:34.516387-0400 INFO train_cost_total 0.140932
+bumpy 2023-07-05T09:33:34.518006-0400 DEBUG : total      25.5 (100.0%)
+bumpy 2023-07-05T09:33:34.518197-0400 DEBUG : train      25.1 (98.6%)
+bumpy 2023-07-05T09:33:34.518318-0400 DEBUG : holdout    0.3 (1.0%)
+bumpy 2023-07-05T09:33:34.518484-0400 DEBUG : save       0.1 (0.2%)
+bumpy 2023-07-05T09:33:34.518598-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:33:34.518704-0400 DEBUG 
+bumpy 2023-07-05T09:33:59.640568-0400 INFO 
+bumpy 2023-07-05T09:33:59.641716-0400 INFO Step 31000
+bumpy 2023-07-05T09:33:59.642305-0400 INFO holdout_cost_bumpy 0.180200
+bumpy 2023-07-05T09:33:59.642662-0400 INFO holdout_cost_bumpy_accuracy 0.831055
+bumpy 2023-07-05T09:33:59.642972-0400 INFO holdout_cost_bumpy_accuracy_random 0.164258
+bumpy 2023-07-05T09:33:59.643301-0400 INFO holdout_cost_l2_reg 0.000877
+bumpy 2023-07-05T09:33:59.643771-0400 INFO holdout_cost_total 0.181077
+bumpy 2023-07-05T09:33:59.647748-0400 INFO train_cost_bumpy 0.141812
+bumpy 2023-07-05T09:33:59.651752-0400 INFO train_cost_bumpy_accuracy 0.833305
+bumpy 2023-07-05T09:33:59.655821-0400 INFO train_cost_bumpy_accuracy_random 0.198309
+bumpy 2023-07-05T09:33:59.660772-0400 INFO train_cost_l2_reg 0.000877
+bumpy 2023-07-05T09:33:59.662313-0400 INFO train_cost_total 0.142689
+bumpy 2023-07-05T09:33:59.663696-0400 DEBUG : total      25.1 (100.0%)
+bumpy 2023-07-05T09:33:59.663834-0400 DEBUG : train      24.8 (98.8%)
+bumpy 2023-07-05T09:33:59.663940-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:33:59.664040-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:33:59.664136-0400 DEBUG 
+bumpy 2023-07-05T09:34:24.822690-0400 INFO 
+bumpy 2023-07-05T09:34:24.823521-0400 INFO Step 32000
+bumpy 2023-07-05T09:34:24.823981-0400 INFO holdout_cost_bumpy 0.158580
+bumpy 2023-07-05T09:34:24.824337-0400 INFO holdout_cost_bumpy_accuracy 0.842969
+bumpy 2023-07-05T09:34:24.824698-0400 INFO holdout_cost_bumpy_accuracy_random 0.150000
+bumpy 2023-07-05T09:34:24.825049-0400 INFO holdout_cost_l2_reg 0.000877
+bumpy 2023-07-05T09:34:24.825368-0400 INFO holdout_cost_total 0.159456
+bumpy 2023-07-05T09:34:24.829365-0400 INFO train_cost_bumpy 0.137800
+bumpy 2023-07-05T09:34:24.834684-0400 INFO train_cost_bumpy_accuracy 0.839984
+bumpy 2023-07-05T09:34:24.837851-0400 INFO train_cost_bumpy_accuracy_random 0.199215
+bumpy 2023-07-05T09:34:24.839586-0400 INFO train_cost_l2_reg 0.000876
+bumpy 2023-07-05T09:34:24.842045-0400 INFO train_cost_total 0.138676
+bumpy 2023-07-05T09:34:24.843637-0400 DEBUG : total      25.2 (100.0%)
+bumpy 2023-07-05T09:34:24.843819-0400 DEBUG : train      24.9 (98.8%)
+bumpy 2023-07-05T09:34:24.843932-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:34:24.844036-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:34:24.844137-0400 DEBUG 
+bumpy 2023-07-05T09:34:50.157972-0400 INFO 
+bumpy 2023-07-05T09:34:50.158875-0400 INFO Step 33000
+bumpy 2023-07-05T09:34:50.159260-0400 INFO holdout_cost_bumpy 0.170580
+bumpy 2023-07-05T09:34:50.159593-0400 INFO holdout_cost_bumpy_accuracy 0.841016
+bumpy 2023-07-05T09:34:50.159902-0400 INFO holdout_cost_bumpy_accuracy_random 0.173828
+bumpy 2023-07-05T09:34:50.160221-0400 INFO holdout_cost_l2_reg 0.000877
+bumpy 2023-07-05T09:34:50.160533-0400 INFO holdout_cost_total 0.171457
+bumpy 2023-07-05T09:34:50.164322-0400 INFO train_cost_bumpy 0.136313
+bumpy 2023-07-05T09:34:50.168873-0400 INFO train_cost_bumpy_accuracy 0.841543
+bumpy 2023-07-05T09:34:50.170439-0400 INFO train_cost_bumpy_accuracy_random 0.200125
+bumpy 2023-07-05T09:34:50.172059-0400 INFO train_cost_l2_reg 0.000877
+bumpy 2023-07-05T09:34:50.173590-0400 INFO train_cost_total 0.137190
+bumpy 2023-07-05T09:34:50.174888-0400 DEBUG : total      25.3 (100.0%)
+bumpy 2023-07-05T09:34:50.175035-0400 DEBUG : train      25.0 (98.8%)
+bumpy 2023-07-05T09:34:50.175134-0400 DEBUG : holdout    0.3 (1.0%)
+bumpy 2023-07-05T09:34:50.175226-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:34:50.175315-0400 DEBUG 
+bumpy 2023-07-05T09:35:15.366078-0400 INFO 
+bumpy 2023-07-05T09:35:15.367242-0400 INFO Step 34000
+bumpy 2023-07-05T09:35:15.367751-0400 INFO holdout_cost_bumpy 0.166607
+bumpy 2023-07-05T09:35:15.368111-0400 INFO holdout_cost_bumpy_accuracy 0.853906
+bumpy 2023-07-05T09:35:15.368536-0400 INFO holdout_cost_bumpy_accuracy_random 0.159961
+bumpy 2023-07-05T09:35:15.368880-0400 INFO holdout_cost_l2_reg 0.000875
+bumpy 2023-07-05T09:35:15.369206-0400 INFO holdout_cost_total 0.167482
+bumpy 2023-07-05T09:35:15.372871-0400 INFO train_cost_bumpy 0.134303
+bumpy 2023-07-05T09:35:15.376532-0400 INFO train_cost_bumpy_accuracy 0.842445
+bumpy 2023-07-05T09:35:15.381323-0400 INFO train_cost_bumpy_accuracy_random 0.200434
+bumpy 2023-07-05T09:35:15.386398-0400 INFO train_cost_l2_reg 0.000875
+bumpy 2023-07-05T09:35:15.391847-0400 INFO train_cost_total 0.135178
+bumpy 2023-07-05T09:35:15.396994-0400 DEBUG : total      25.2 (100.0%)
+bumpy 2023-07-05T09:35:15.397218-0400 DEBUG : train      24.9 (98.8%)
+bumpy 2023-07-05T09:35:15.397329-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:35:15.397431-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:35:15.397527-0400 DEBUG 
+bumpy 2023-07-05T09:35:40.600490-0400 INFO 
+bumpy 2023-07-05T09:35:40.601619-0400 INFO Step 35000
+bumpy 2023-07-05T09:35:40.602067-0400 INFO holdout_cost_bumpy 0.177744
+bumpy 2023-07-05T09:35:40.602431-0400 INFO holdout_cost_bumpy_accuracy 0.844727
+bumpy 2023-07-05T09:35:40.602759-0400 INFO holdout_cost_bumpy_accuracy_random 0.170117
+bumpy 2023-07-05T09:35:40.603070-0400 INFO holdout_cost_l2_reg 0.000874
+bumpy 2023-07-05T09:35:40.603395-0400 INFO holdout_cost_total 0.178618
+bumpy 2023-07-05T09:35:40.607636-0400 INFO train_cost_bumpy 0.134704
+bumpy 2023-07-05T09:35:40.612422-0400 INFO train_cost_bumpy_accuracy 0.838742
+bumpy 2023-07-05T09:35:40.615228-0400 INFO train_cost_bumpy_accuracy_random 0.203137
+bumpy 2023-07-05T09:35:40.617557-0400 INFO train_cost_l2_reg 0.000874
+bumpy 2023-07-05T09:35:40.619109-0400 INFO train_cost_total 0.135578
+bumpy 2023-07-05T09:35:40.620421-0400 DEBUG : total      25.2 (100.0%)
+bumpy 2023-07-05T09:35:40.620573-0400 DEBUG : train      24.9 (98.8%)
+bumpy 2023-07-05T09:35:40.620683-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:35:40.620782-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:35:40.620876-0400 DEBUG 
+bumpy 2023-07-05T09:36:05.664652-0400 INFO 
+bumpy 2023-07-05T09:36:05.665593-0400 INFO Step 36000
+bumpy 2023-07-05T09:36:05.666038-0400 INFO holdout_cost_bumpy 0.182138
+bumpy 2023-07-05T09:36:05.666402-0400 INFO holdout_cost_bumpy_accuracy 0.833594
+bumpy 2023-07-05T09:36:05.666743-0400 INFO holdout_cost_bumpy_accuracy_random 0.158398
+bumpy 2023-07-05T09:36:05.667063-0400 INFO holdout_cost_l2_reg 0.000873
+bumpy 2023-07-05T09:36:05.667360-0400 INFO holdout_cost_total 0.183010
+bumpy 2023-07-05T09:36:05.672612-0400 INFO train_cost_bumpy 0.136461
+bumpy 2023-07-05T09:36:05.674101-0400 INFO train_cost_bumpy_accuracy 0.838867
+bumpy 2023-07-05T09:36:05.675554-0400 INFO train_cost_bumpy_accuracy_random 0.200699
+bumpy 2023-07-05T09:36:05.677721-0400 INFO train_cost_l2_reg 0.000873
+bumpy 2023-07-05T09:36:05.679377-0400 INFO train_cost_total 0.137333
+bumpy 2023-07-05T09:36:05.680898-0400 DEBUG : total      25.0 (100.0%)
+bumpy 2023-07-05T09:36:05.681054-0400 DEBUG : train      24.8 (98.9%)
+bumpy 2023-07-05T09:36:05.681158-0400 DEBUG : holdout    0.3 (1.0%)
+bumpy 2023-07-05T09:36:05.681255-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:36:05.681349-0400 DEBUG 
+bumpy 2023-07-05T09:36:30.775185-0400 INFO 
+bumpy 2023-07-05T09:36:30.776221-0400 INFO Step 37000
+bumpy 2023-07-05T09:36:30.776685-0400 INFO holdout_cost_bumpy 0.178695
+bumpy 2023-07-05T09:36:30.776999-0400 INFO holdout_cost_bumpy_accuracy 0.846094
+bumpy 2023-07-05T09:36:30.777280-0400 INFO holdout_cost_bumpy_accuracy_random 0.159375
+bumpy 2023-07-05T09:36:30.777556-0400 INFO holdout_cost_l2_reg 0.000873
+bumpy 2023-07-05T09:36:30.777833-0400 INFO holdout_cost_total 0.179567
+bumpy 2023-07-05T09:36:30.782095-0400 INFO train_cost_bumpy 0.132472
+bumpy 2023-07-05T09:36:30.787342-0400 INFO train_cost_bumpy_accuracy 0.843125
+bumpy 2023-07-05T09:36:30.790653-0400 INFO train_cost_bumpy_accuracy_random 0.197816
+bumpy 2023-07-05T09:36:30.792288-0400 INFO train_cost_l2_reg 0.000873
+bumpy 2023-07-05T09:36:30.793889-0400 INFO train_cost_total 0.133345
+bumpy 2023-07-05T09:36:30.795277-0400 DEBUG : total      25.1 (100.0%)
+bumpy 2023-07-05T09:36:30.795422-0400 DEBUG : train      24.8 (98.8%)
+bumpy 2023-07-05T09:36:30.795534-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:36:30.795635-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:36:30.795733-0400 DEBUG 
+bumpy 2023-07-05T09:36:56.118697-0400 INFO 
+bumpy 2023-07-05T09:36:56.119617-0400 INFO Step 38000
+bumpy 2023-07-05T09:36:56.120017-0400 INFO holdout_cost_bumpy 0.175758
+bumpy 2023-07-05T09:36:56.120342-0400 INFO holdout_cost_bumpy_accuracy 0.826562
+bumpy 2023-07-05T09:36:56.120700-0400 INFO holdout_cost_bumpy_accuracy_random 0.171484
+bumpy 2023-07-05T09:36:56.121102-0400 INFO holdout_cost_l2_reg 0.000871
+bumpy 2023-07-05T09:36:56.121424-0400 INFO holdout_cost_total 0.176630
+bumpy 2023-07-05T09:36:56.126139-0400 INFO train_cost_bumpy 0.133198
+bumpy 2023-07-05T09:36:56.129305-0400 INFO train_cost_bumpy_accuracy 0.839691
+bumpy 2023-07-05T09:36:56.131017-0400 INFO train_cost_bumpy_accuracy_random 0.202070
+bumpy 2023-07-05T09:36:56.132794-0400 INFO train_cost_l2_reg 0.000871
+bumpy 2023-07-05T09:36:56.134519-0400 INFO train_cost_total 0.134069
+bumpy 2023-07-05T09:36:56.136042-0400 DEBUG : total      25.3 (100.0%)
+bumpy 2023-07-05T09:36:56.136216-0400 DEBUG : train      25.0 (98.8%)
+bumpy 2023-07-05T09:36:56.136330-0400 DEBUG : holdout    0.3 (1.0%)
+bumpy 2023-07-05T09:36:56.136436-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:36:56.136537-0400 DEBUG 
+bumpy 2023-07-05T09:37:21.242677-0400 INFO 
+bumpy 2023-07-05T09:37:21.243701-0400 INFO Step 39000
+bumpy 2023-07-05T09:37:21.244142-0400 INFO holdout_cost_bumpy 0.188730
+bumpy 2023-07-05T09:37:21.244667-0400 INFO holdout_cost_bumpy_accuracy 0.827734
+bumpy 2023-07-05T09:37:21.245130-0400 INFO holdout_cost_bumpy_accuracy_random 0.160156
+bumpy 2023-07-05T09:37:21.245493-0400 INFO holdout_cost_l2_reg 0.000872
+bumpy 2023-07-05T09:37:21.245887-0400 INFO holdout_cost_total 0.189602
+bumpy 2023-07-05T09:37:21.250291-0400 INFO train_cost_bumpy 0.130260
+bumpy 2023-07-05T09:37:21.254114-0400 INFO train_cost_bumpy_accuracy 0.840391
+bumpy 2023-07-05T09:37:21.256870-0400 INFO train_cost_bumpy_accuracy_random 0.198203
+bumpy 2023-07-05T09:37:21.258592-0400 INFO train_cost_l2_reg 0.000872
+bumpy 2023-07-05T09:37:21.260163-0400 INFO train_cost_total 0.131132
+bumpy 2023-07-05T09:37:21.261562-0400 DEBUG : total      25.1 (100.0%)
+bumpy 2023-07-05T09:37:21.261716-0400 DEBUG : train      24.8 (98.8%)
+bumpy 2023-07-05T09:37:21.261824-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:37:21.261926-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:37:21.262025-0400 DEBUG 
+bumpy 2023-07-05T09:37:46.389616-0400 INFO 
+bumpy 2023-07-05T09:37:46.390330-0400 INFO Step 40000
+bumpy 2023-07-05T09:37:46.390595-0400 INFO holdout_cost_bumpy 0.162137
+bumpy 2023-07-05T09:37:46.390788-0400 INFO holdout_cost_bumpy_accuracy 0.848437
+bumpy 2023-07-05T09:37:46.390968-0400 INFO holdout_cost_bumpy_accuracy_random 0.146484
+bumpy 2023-07-05T09:37:46.391143-0400 INFO holdout_cost_l2_reg 0.000872
+bumpy 2023-07-05T09:37:46.391316-0400 INFO holdout_cost_total 0.163009
+bumpy 2023-07-05T09:37:46.393031-0400 INFO train_cost_bumpy 0.128681
+bumpy 2023-07-05T09:37:46.394641-0400 INFO train_cost_bumpy_accuracy 0.842824
+bumpy 2023-07-05T09:37:46.396198-0400 INFO train_cost_bumpy_accuracy_random 0.199813
+bumpy 2023-07-05T09:37:46.397819-0400 INFO train_cost_l2_reg 0.000872
+bumpy 2023-07-05T09:37:46.399458-0400 INFO train_cost_total 0.129553
+bumpy 2023-07-05T09:37:46.400858-0400 DEBUG : total      25.1 (100.0%)
+bumpy 2023-07-05T09:37:46.401011-0400 DEBUG : train      24.8 (98.6%)
+bumpy 2023-07-05T09:37:46.401122-0400 DEBUG : holdout    0.3 (1.0%)
+bumpy 2023-07-05T09:37:46.401224-0400 DEBUG : save       0.1 (0.2%)
+bumpy 2023-07-05T09:37:46.401323-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:37:46.401421-0400 DEBUG 
+bumpy 2023-07-05T09:38:12.016008-0400 INFO 
+bumpy 2023-07-05T09:38:12.017039-0400 INFO Step 41000
+bumpy 2023-07-05T09:38:12.017545-0400 INFO holdout_cost_bumpy 0.169624
+bumpy 2023-07-05T09:38:12.017944-0400 INFO holdout_cost_bumpy_accuracy 0.842383
+bumpy 2023-07-05T09:38:12.018324-0400 INFO holdout_cost_bumpy_accuracy_random 0.156641
+bumpy 2023-07-05T09:38:12.018700-0400 INFO holdout_cost_l2_reg 0.000871
+bumpy 2023-07-05T09:38:12.019059-0400 INFO holdout_cost_total 0.170495
+bumpy 2023-07-05T09:38:12.023696-0400 INFO train_cost_bumpy 0.127353
+bumpy 2023-07-05T09:38:12.029177-0400 INFO train_cost_bumpy_accuracy 0.846480
+bumpy 2023-07-05T09:38:12.031211-0400 INFO train_cost_bumpy_accuracy_random 0.200715
+bumpy 2023-07-05T09:38:12.032740-0400 INFO train_cost_l2_reg 0.000871
+bumpy 2023-07-05T09:38:12.034105-0400 INFO train_cost_total 0.128224
+bumpy 2023-07-05T09:38:12.035323-0400 DEBUG : total      25.6 (100.0%)
+bumpy 2023-07-05T09:38:12.035444-0400 DEBUG : train      25.3 (98.8%)
+bumpy 2023-07-05T09:38:12.035534-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:38:12.035618-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:38:12.035699-0400 DEBUG 
+bumpy 2023-07-05T09:38:37.156684-0400 INFO 
+bumpy 2023-07-05T09:38:37.158004-0400 INFO Step 42000
+bumpy 2023-07-05T09:38:37.158501-0400 INFO holdout_cost_bumpy 0.169599
+bumpy 2023-07-05T09:38:37.158835-0400 INFO holdout_cost_bumpy_accuracy 0.839844
+bumpy 2023-07-05T09:38:37.159142-0400 INFO holdout_cost_bumpy_accuracy_random 0.141992
+bumpy 2023-07-05T09:38:37.159446-0400 INFO holdout_cost_l2_reg 0.000869
+bumpy 2023-07-05T09:38:37.159751-0400 INFO holdout_cost_total 0.170468
+bumpy 2023-07-05T09:38:37.163489-0400 INFO train_cost_bumpy 0.127615
+bumpy 2023-07-05T09:38:37.167486-0400 INFO train_cost_bumpy_accuracy 0.840367
+bumpy 2023-07-05T09:38:37.172828-0400 INFO train_cost_bumpy_accuracy_random 0.204277
+bumpy 2023-07-05T09:38:37.174494-0400 INFO train_cost_l2_reg 0.000869
+bumpy 2023-07-05T09:38:37.176059-0400 INFO train_cost_total 0.128484
+bumpy 2023-07-05T09:38:37.177466-0400 DEBUG : total      25.1 (100.0%)
+bumpy 2023-07-05T09:38:37.177614-0400 DEBUG : train      24.8 (98.8%)
+bumpy 2023-07-05T09:38:37.177720-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:38:37.177819-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:38:37.177917-0400 DEBUG 
+bumpy 2023-07-05T09:39:02.514658-0400 INFO 
+bumpy 2023-07-05T09:39:02.515847-0400 INFO Step 43000
+bumpy 2023-07-05T09:39:02.516322-0400 INFO holdout_cost_bumpy 0.168015
+bumpy 2023-07-05T09:39:02.516671-0400 INFO holdout_cost_bumpy_accuracy 0.841992
+bumpy 2023-07-05T09:39:02.517007-0400 INFO holdout_cost_bumpy_accuracy_random 0.145898
+bumpy 2023-07-05T09:39:02.517316-0400 INFO holdout_cost_l2_reg 0.000869
+bumpy 2023-07-05T09:39:02.517669-0400 INFO holdout_cost_total 0.168884
+bumpy 2023-07-05T09:39:02.521329-0400 INFO train_cost_bumpy 0.126167
+bumpy 2023-07-05T09:39:02.522865-0400 INFO train_cost_bumpy_accuracy 0.843816
+bumpy 2023-07-05T09:39:02.524334-0400 INFO train_cost_bumpy_accuracy_random 0.203109
+bumpy 2023-07-05T09:39:02.525883-0400 INFO train_cost_l2_reg 0.000869
+bumpy 2023-07-05T09:39:02.528955-0400 INFO train_cost_total 0.127036
+bumpy 2023-07-05T09:39:02.532267-0400 DEBUG : total      25.3 (100.0%)
+bumpy 2023-07-05T09:39:02.532449-0400 DEBUG : train      25.0 (98.8%)
+bumpy 2023-07-05T09:39:02.532579-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:39:02.532682-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:39:02.532780-0400 DEBUG 
+bumpy 2023-07-05T09:39:27.772334-0400 INFO 
+bumpy 2023-07-05T09:39:27.773510-0400 INFO Step 44000
+bumpy 2023-07-05T09:39:27.774093-0400 INFO holdout_cost_bumpy 0.175722
+bumpy 2023-07-05T09:39:27.774489-0400 INFO holdout_cost_bumpy_accuracy 0.851172
+bumpy 2023-07-05T09:39:27.774816-0400 INFO holdout_cost_bumpy_accuracy_random 0.149805
+bumpy 2023-07-05T09:39:27.775202-0400 INFO holdout_cost_l2_reg 0.000868
+bumpy 2023-07-05T09:39:27.775614-0400 INFO holdout_cost_total 0.176589
+bumpy 2023-07-05T09:39:27.780022-0400 INFO train_cost_bumpy 0.126123
+bumpy 2023-07-05T09:39:27.781642-0400 INFO train_cost_bumpy_accuracy 0.843230
+bumpy 2023-07-05T09:39:27.783057-0400 INFO train_cost_bumpy_accuracy_random 0.197156
+bumpy 2023-07-05T09:39:27.784523-0400 INFO train_cost_l2_reg 0.000868
+bumpy 2023-07-05T09:39:27.786223-0400 INFO train_cost_total 0.126991
+bumpy 2023-07-05T09:39:27.787746-0400 DEBUG : total      25.2 (100.0%)
+bumpy 2023-07-05T09:39:27.787905-0400 DEBUG : train      24.9 (98.8%)
+bumpy 2023-07-05T09:39:27.788010-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:39:27.788156-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:39:27.788298-0400 DEBUG 
+bumpy 2023-07-05T09:39:53.004368-0400 INFO 
+bumpy 2023-07-05T09:39:53.005367-0400 INFO Step 45000
+bumpy 2023-07-05T09:39:53.005865-0400 INFO holdout_cost_bumpy 0.186812
+bumpy 2023-07-05T09:39:53.006212-0400 INFO holdout_cost_bumpy_accuracy 0.845898
+bumpy 2023-07-05T09:39:53.006553-0400 INFO holdout_cost_bumpy_accuracy_random 0.152734
+bumpy 2023-07-05T09:39:53.006915-0400 INFO holdout_cost_l2_reg 0.000867
+bumpy 2023-07-05T09:39:53.007233-0400 INFO holdout_cost_total 0.187680
+bumpy 2023-07-05T09:39:53.010880-0400 INFO train_cost_bumpy 0.122131
+bumpy 2023-07-05T09:39:53.015695-0400 INFO train_cost_bumpy_accuracy 0.848520
+bumpy 2023-07-05T09:39:53.019036-0400 INFO train_cost_bumpy_accuracy_random 0.198445
+bumpy 2023-07-05T09:39:53.021607-0400 INFO train_cost_l2_reg 0.000867
+bumpy 2023-07-05T09:39:53.023258-0400 INFO train_cost_total 0.122998
+bumpy 2023-07-05T09:39:53.024704-0400 DEBUG : total      25.2 (100.0%)
+bumpy 2023-07-05T09:39:53.024855-0400 DEBUG : train      24.9 (98.8%)
+bumpy 2023-07-05T09:39:53.024967-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:39:53.025072-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:39:53.025172-0400 DEBUG 
+bumpy 2023-07-05T09:40:18.272507-0400 INFO 
+bumpy 2023-07-05T09:40:18.273337-0400 INFO Step 46000
+bumpy 2023-07-05T09:40:18.273727-0400 INFO holdout_cost_bumpy 0.171832
+bumpy 2023-07-05T09:40:18.274018-0400 INFO holdout_cost_bumpy_accuracy 0.842578
+bumpy 2023-07-05T09:40:18.274308-0400 INFO holdout_cost_bumpy_accuracy_random 0.157812
+bumpy 2023-07-05T09:40:18.274582-0400 INFO holdout_cost_l2_reg 0.000867
+bumpy 2023-07-05T09:40:18.274857-0400 INFO holdout_cost_total 0.172699
+bumpy 2023-07-05T09:40:18.278412-0400 INFO train_cost_bumpy 0.125019
+bumpy 2023-07-05T09:40:18.279939-0400 INFO train_cost_bumpy_accuracy 0.841969
+bumpy 2023-07-05T09:40:18.282415-0400 INFO train_cost_bumpy_accuracy_random 0.196754
+bumpy 2023-07-05T09:40:18.285342-0400 INFO train_cost_l2_reg 0.000867
+bumpy 2023-07-05T09:40:18.287072-0400 INFO train_cost_total 0.125886
+bumpy 2023-07-05T09:40:18.288490-0400 DEBUG : total      25.2 (100.0%)
+bumpy 2023-07-05T09:40:18.288646-0400 DEBUG : train      24.9 (98.8%)
+bumpy 2023-07-05T09:40:18.288738-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:40:18.288822-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:40:18.288905-0400 DEBUG 
+bumpy 2023-07-05T09:40:43.675035-0400 INFO 
+bumpy 2023-07-05T09:40:43.676074-0400 INFO Step 47000
+bumpy 2023-07-05T09:40:43.676506-0400 INFO holdout_cost_bumpy 0.185862
+bumpy 2023-07-05T09:40:43.676900-0400 INFO holdout_cost_bumpy_accuracy 0.844336
+bumpy 2023-07-05T09:40:43.677346-0400 INFO holdout_cost_bumpy_accuracy_random 0.148633
+bumpy 2023-07-05T09:40:43.677790-0400 INFO holdout_cost_l2_reg 0.000866
+bumpy 2023-07-05T09:40:43.678215-0400 INFO holdout_cost_total 0.186729
+bumpy 2023-07-05T09:40:43.681938-0400 INFO train_cost_bumpy 0.120229
+bumpy 2023-07-05T09:40:43.685691-0400 INFO train_cost_bumpy_accuracy 0.847629
+bumpy 2023-07-05T09:40:43.687636-0400 INFO train_cost_bumpy_accuracy_random 0.199316
+bumpy 2023-07-05T09:40:43.689901-0400 INFO train_cost_l2_reg 0.000866
+bumpy 2023-07-05T09:40:43.691548-0400 INFO train_cost_total 0.121095
+bumpy 2023-07-05T09:40:43.693030-0400 DEBUG : total      25.4 (100.0%)
+bumpy 2023-07-05T09:40:43.693186-0400 DEBUG : train      25.1 (98.8%)
+bumpy 2023-07-05T09:40:43.693298-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:40:43.693398-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:40:43.693495-0400 DEBUG 
+bumpy 2023-07-05T09:41:09.112767-0400 INFO 
+bumpy 2023-07-05T09:41:09.113678-0400 INFO Step 48000
+bumpy 2023-07-05T09:41:09.114266-0400 INFO holdout_cost_bumpy 0.178772
+bumpy 2023-07-05T09:41:09.114689-0400 INFO holdout_cost_bumpy_accuracy 0.839453
+bumpy 2023-07-05T09:41:09.115078-0400 INFO holdout_cost_bumpy_accuracy_random 0.162109
+bumpy 2023-07-05T09:41:09.115473-0400 INFO holdout_cost_l2_reg 0.000867
+bumpy 2023-07-05T09:41:09.115792-0400 INFO holdout_cost_total 0.179639
+bumpy 2023-07-05T09:41:09.120759-0400 INFO train_cost_bumpy 0.120673
+bumpy 2023-07-05T09:41:09.122379-0400 INFO train_cost_bumpy_accuracy 0.846660
+bumpy 2023-07-05T09:41:09.123860-0400 INFO train_cost_bumpy_accuracy_random 0.202859
+bumpy 2023-07-05T09:41:09.125882-0400 INFO train_cost_l2_reg 0.000867
+bumpy 2023-07-05T09:41:09.127667-0400 INFO train_cost_total 0.121540
+bumpy 2023-07-05T09:41:09.129199-0400 DEBUG : total      25.4 (100.0%)
+bumpy 2023-07-05T09:41:09.129394-0400 DEBUG : train      25.1 (98.8%)
+bumpy 2023-07-05T09:41:09.129512-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:41:09.129669-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:41:09.129822-0400 DEBUG 
+bumpy 2023-07-05T09:41:34.165159-0400 INFO 
+bumpy 2023-07-05T09:41:34.166108-0400 INFO Step 49000
+bumpy 2023-07-05T09:41:34.166504-0400 INFO holdout_cost_bumpy 0.167633
+bumpy 2023-07-05T09:41:34.166826-0400 INFO holdout_cost_bumpy_accuracy 0.836133
+bumpy 2023-07-05T09:41:34.167122-0400 INFO holdout_cost_bumpy_accuracy_random 0.147070
+bumpy 2023-07-05T09:41:34.167431-0400 INFO holdout_cost_l2_reg 0.000866
+bumpy 2023-07-05T09:41:34.167726-0400 INFO holdout_cost_total 0.168498
+bumpy 2023-07-05T09:41:34.171413-0400 INFO train_cost_bumpy 0.119451
+bumpy 2023-07-05T09:41:34.175422-0400 INFO train_cost_bumpy_accuracy 0.848250
+bumpy 2023-07-05T09:41:34.180245-0400 INFO train_cost_bumpy_accuracy_random 0.199969
+bumpy 2023-07-05T09:41:34.185702-0400 INFO train_cost_l2_reg 0.000866
+bumpy 2023-07-05T09:41:34.187604-0400 INFO train_cost_total 0.120317
+bumpy 2023-07-05T09:41:34.192009-0400 DEBUG : total      25.0 (100.0%)
+bumpy 2023-07-05T09:41:34.192255-0400 DEBUG : train      24.7 (98.8%)
+bumpy 2023-07-05T09:41:34.192381-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:41:34.192494-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:41:34.192634-0400 DEBUG 
+bumpy 2023-07-05T09:41:59.331451-0400 INFO 
+bumpy 2023-07-05T09:41:59.332180-0400 INFO Step 50000
+bumpy 2023-07-05T09:41:59.332598-0400 INFO holdout_cost_bumpy 0.175450
+bumpy 2023-07-05T09:41:59.332793-0400 INFO holdout_cost_bumpy_accuracy 0.848242
+bumpy 2023-07-05T09:41:59.332977-0400 INFO holdout_cost_bumpy_accuracy_random 0.144727
+bumpy 2023-07-05T09:41:59.333150-0400 INFO holdout_cost_l2_reg 0.000865
+bumpy 2023-07-05T09:41:59.333320-0400 INFO holdout_cost_total 0.176315
+bumpy 2023-07-05T09:41:59.336488-0400 INFO train_cost_bumpy 0.117721
+bumpy 2023-07-05T09:41:59.338079-0400 INFO train_cost_bumpy_accuracy 0.846387
+bumpy 2023-07-05T09:41:59.339570-0400 INFO train_cost_bumpy_accuracy_random 0.203313
+bumpy 2023-07-05T09:41:59.341020-0400 INFO train_cost_l2_reg 0.000865
+bumpy 2023-07-05T09:41:59.342482-0400 INFO train_cost_total 0.118586
+bumpy 2023-07-05T09:41:59.343948-0400 DEBUG : total      25.1 (100.0%)
+bumpy 2023-07-05T09:41:59.344132-0400 DEBUG : train      24.8 (98.7%)
+bumpy 2023-07-05T09:41:59.344249-0400 DEBUG : holdout    0.3 (1.0%)
+bumpy 2023-07-05T09:41:59.344357-0400 DEBUG : save       0.0 (0.2%)
+bumpy 2023-07-05T09:41:59.344460-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:41:59.344612-0400 DEBUG 
+bumpy 2023-07-05T09:42:24.512420-0400 INFO 
+bumpy 2023-07-05T09:42:24.513341-0400 INFO Step 51000
+bumpy 2023-07-05T09:42:24.513806-0400 INFO holdout_cost_bumpy 0.194953
+bumpy 2023-07-05T09:42:24.514120-0400 INFO holdout_cost_bumpy_accuracy 0.842773
+bumpy 2023-07-05T09:42:24.514459-0400 INFO holdout_cost_bumpy_accuracy_random 0.145898
+bumpy 2023-07-05T09:42:24.514792-0400 INFO holdout_cost_l2_reg 0.000865
+bumpy 2023-07-05T09:42:24.515093-0400 INFO holdout_cost_total 0.195818
+bumpy 2023-07-05T09:42:24.516928-0400 INFO train_cost_bumpy 0.117771
+bumpy 2023-07-05T09:42:24.518447-0400 INFO train_cost_bumpy_accuracy 0.846781
+bumpy 2023-07-05T09:42:24.519935-0400 INFO train_cost_bumpy_accuracy_random 0.199059
+bumpy 2023-07-05T09:42:24.522415-0400 INFO train_cost_l2_reg 0.000865
+bumpy 2023-07-05T09:42:24.525591-0400 INFO train_cost_total 0.118636
+bumpy 2023-07-05T09:42:24.528967-0400 DEBUG : total      25.2 (100.0%)
+bumpy 2023-07-05T09:42:24.529156-0400 DEBUG : train      24.9 (98.8%)
+bumpy 2023-07-05T09:42:24.529278-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:42:24.529377-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:42:24.529472-0400 DEBUG 
+bumpy 2023-07-05T09:42:49.891945-0400 INFO 
+bumpy 2023-07-05T09:42:49.892852-0400 INFO Step 52000
+bumpy 2023-07-05T09:42:49.893135-0400 INFO holdout_cost_bumpy 0.196158
+bumpy 2023-07-05T09:42:49.893328-0400 INFO holdout_cost_bumpy_accuracy 0.841602
+bumpy 2023-07-05T09:42:49.893523-0400 INFO holdout_cost_bumpy_accuracy_random 0.149219
+bumpy 2023-07-05T09:42:49.893877-0400 INFO holdout_cost_l2_reg 0.000865
+bumpy 2023-07-05T09:42:49.894206-0400 INFO holdout_cost_total 0.197023
+bumpy 2023-07-05T09:42:49.897702-0400 INFO train_cost_bumpy 0.115960
+bumpy 2023-07-05T09:42:49.901221-0400 INFO train_cost_bumpy_accuracy 0.849980
+bumpy 2023-07-05T09:42:49.905129-0400 INFO train_cost_bumpy_accuracy_random 0.196937
+bumpy 2023-07-05T09:42:49.906779-0400 INFO train_cost_l2_reg 0.000865
+bumpy 2023-07-05T09:42:49.908286-0400 INFO train_cost_total 0.116825
+bumpy 2023-07-05T09:42:49.909620-0400 DEBUG : total      25.4 (100.0%)
+bumpy 2023-07-05T09:42:49.909765-0400 DEBUG : train      25.1 (98.8%)
+bumpy 2023-07-05T09:42:49.909865-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:42:49.909962-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:42:49.910053-0400 DEBUG 
+bumpy 2023-07-05T09:43:15.077799-0400 INFO 
+bumpy 2023-07-05T09:43:15.078802-0400 INFO Step 53000
+bumpy 2023-07-05T09:43:15.079233-0400 INFO holdout_cost_bumpy 0.183988
+bumpy 2023-07-05T09:43:15.079588-0400 INFO holdout_cost_bumpy_accuracy 0.837109
+bumpy 2023-07-05T09:43:15.079914-0400 INFO holdout_cost_bumpy_accuracy_random 0.156055
+bumpy 2023-07-05T09:43:15.080226-0400 INFO holdout_cost_l2_reg 0.000863
+bumpy 2023-07-05T09:43:15.080547-0400 INFO holdout_cost_total 0.184851
+bumpy 2023-07-05T09:43:15.085458-0400 INFO train_cost_bumpy 0.114772
+bumpy 2023-07-05T09:43:15.087663-0400 INFO train_cost_bumpy_accuracy 0.849070
+bumpy 2023-07-05T09:43:15.089653-0400 INFO train_cost_bumpy_accuracy_random 0.203281
+bumpy 2023-07-05T09:43:15.091235-0400 INFO train_cost_l2_reg 0.000863
+bumpy 2023-07-05T09:43:15.093014-0400 INFO train_cost_total 0.115635
+bumpy 2023-07-05T09:43:15.094452-0400 DEBUG : total      25.2 (100.0%)
+bumpy 2023-07-05T09:43:15.094614-0400 DEBUG : train      24.9 (98.8%)
+bumpy 2023-07-05T09:43:15.094727-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:43:15.094832-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:43:15.094935-0400 DEBUG 
+bumpy 2023-07-05T09:43:40.340987-0400 INFO 
+bumpy 2023-07-05T09:43:40.342015-0400 INFO Step 54000
+bumpy 2023-07-05T09:43:40.342392-0400 INFO holdout_cost_bumpy 0.213720
+bumpy 2023-07-05T09:43:40.342687-0400 INFO holdout_cost_bumpy_accuracy 0.844922
+bumpy 2023-07-05T09:43:40.342968-0400 INFO holdout_cost_bumpy_accuracy_random 0.152344
+bumpy 2023-07-05T09:43:40.343237-0400 INFO holdout_cost_l2_reg 0.000863
+bumpy 2023-07-05T09:43:40.343503-0400 INFO holdout_cost_total 0.214582
+bumpy 2023-07-05T09:43:40.348195-0400 INFO train_cost_bumpy 0.113227
+bumpy 2023-07-05T09:43:40.351486-0400 INFO train_cost_bumpy_accuracy 0.849562
+bumpy 2023-07-05T09:43:40.354578-0400 INFO train_cost_bumpy_accuracy_random 0.194789
+bumpy 2023-07-05T09:43:40.356014-0400 INFO train_cost_l2_reg 0.000863
+bumpy 2023-07-05T09:43:40.357390-0400 INFO train_cost_total 0.114090
+bumpy 2023-07-05T09:43:40.358677-0400 DEBUG : total      25.2 (100.0%)
+bumpy 2023-07-05T09:43:40.358801-0400 DEBUG : train      24.9 (98.8%)
+bumpy 2023-07-05T09:43:40.358890-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:43:40.358973-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:43:40.359053-0400 DEBUG 
+bumpy 2023-07-05T09:44:05.547768-0400 INFO 
+bumpy 2023-07-05T09:44:05.548717-0400 INFO Step 55000
+bumpy 2023-07-05T09:44:05.549144-0400 INFO holdout_cost_bumpy 0.191968
+bumpy 2023-07-05T09:44:05.549503-0400 INFO holdout_cost_bumpy_accuracy 0.846094
+bumpy 2023-07-05T09:44:05.549832-0400 INFO holdout_cost_bumpy_accuracy_random 0.160742
+bumpy 2023-07-05T09:44:05.550131-0400 INFO holdout_cost_l2_reg 0.000862
+bumpy 2023-07-05T09:44:05.550405-0400 INFO holdout_cost_total 0.192831
+bumpy 2023-07-05T09:44:05.552540-0400 INFO train_cost_bumpy 0.111704
+bumpy 2023-07-05T09:44:05.554171-0400 INFO train_cost_bumpy_accuracy 0.850715
+bumpy 2023-07-05T09:44:05.555819-0400 INFO train_cost_bumpy_accuracy_random 0.202141
+bumpy 2023-07-05T09:44:05.557811-0400 INFO train_cost_l2_reg 0.000862
+bumpy 2023-07-05T09:44:05.559494-0400 INFO train_cost_total 0.112566
+bumpy 2023-07-05T09:44:05.561279-0400 DEBUG : total      25.2 (100.0%)
+bumpy 2023-07-05T09:44:05.561533-0400 DEBUG : train      24.9 (98.8%)
+bumpy 2023-07-05T09:44:05.561693-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:44:05.561812-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:44:05.561920-0400 DEBUG 
+bumpy 2023-07-05T09:44:30.784325-0400 INFO 
+bumpy 2023-07-05T09:44:30.785369-0400 INFO Step 56000
+bumpy 2023-07-05T09:44:30.785896-0400 INFO holdout_cost_bumpy 0.203985
+bumpy 2023-07-05T09:44:30.786253-0400 INFO holdout_cost_bumpy_accuracy 0.846484
+bumpy 2023-07-05T09:44:30.786573-0400 INFO holdout_cost_bumpy_accuracy_random 0.159766
+bumpy 2023-07-05T09:44:30.786888-0400 INFO holdout_cost_l2_reg 0.000864
+bumpy 2023-07-05T09:44:30.787113-0400 INFO holdout_cost_total 0.204849
+bumpy 2023-07-05T09:44:30.790605-0400 INFO train_cost_bumpy 0.111191
+bumpy 2023-07-05T09:44:30.794829-0400 INFO train_cost_bumpy_accuracy 0.852281
+bumpy 2023-07-05T09:44:30.797646-0400 INFO train_cost_bumpy_accuracy_random 0.201125
+bumpy 2023-07-05T09:44:30.801164-0400 INFO train_cost_l2_reg 0.000864
+bumpy 2023-07-05T09:44:30.802804-0400 INFO train_cost_total 0.112055
+bumpy 2023-07-05T09:44:30.804215-0400 DEBUG : total      25.2 (100.0%)
+bumpy 2023-07-05T09:44:30.804361-0400 DEBUG : train      24.9 (98.8%)
+bumpy 2023-07-05T09:44:30.804468-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:44:30.804581-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:44:30.804681-0400 DEBUG 
+bumpy 2023-07-05T09:44:56.372468-0400 INFO 
+bumpy 2023-07-05T09:44:56.373909-0400 INFO Step 57000
+bumpy 2023-07-05T09:44:56.374451-0400 INFO holdout_cost_bumpy 0.204794
+bumpy 2023-07-05T09:44:56.374803-0400 INFO holdout_cost_bumpy_accuracy 0.849219
+bumpy 2023-07-05T09:44:56.375205-0400 INFO holdout_cost_bumpy_accuracy_random 0.156641
+bumpy 2023-07-05T09:44:56.375556-0400 INFO holdout_cost_l2_reg 0.000862
+bumpy 2023-07-05T09:44:56.375906-0400 INFO holdout_cost_total 0.205657
+bumpy 2023-07-05T09:44:56.380448-0400 INFO train_cost_bumpy 0.110130
+bumpy 2023-07-05T09:44:56.384858-0400 INFO train_cost_bumpy_accuracy 0.852734
+bumpy 2023-07-05T09:44:56.386834-0400 INFO train_cost_bumpy_accuracy_random 0.202625
+bumpy 2023-07-05T09:44:56.388534-0400 INFO train_cost_l2_reg 0.000862
+bumpy 2023-07-05T09:44:56.390220-0400 INFO train_cost_total 0.110992
+bumpy 2023-07-05T09:44:56.391726-0400 DEBUG : total      25.6 (100.0%)
+bumpy 2023-07-05T09:44:56.391909-0400 DEBUG : train      25.3 (98.8%)
+bumpy 2023-07-05T09:44:56.392021-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:44:56.392125-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:44:56.392226-0400 DEBUG 
+bumpy 2023-07-05T09:45:21.579021-0400 INFO 
+bumpy 2023-07-05T09:45:21.580173-0400 INFO Step 58000
+bumpy 2023-07-05T09:45:21.580855-0400 INFO holdout_cost_bumpy 0.208512
+bumpy 2023-07-05T09:45:21.581240-0400 INFO holdout_cost_bumpy_accuracy 0.841797
+bumpy 2023-07-05T09:45:21.581586-0400 INFO holdout_cost_bumpy_accuracy_random 0.154688
+bumpy 2023-07-05T09:45:21.581896-0400 INFO holdout_cost_l2_reg 0.000863
+bumpy 2023-07-05T09:45:21.582707-0400 INFO holdout_cost_total 0.209375
+bumpy 2023-07-05T09:45:21.588058-0400 INFO train_cost_bumpy 0.107878
+bumpy 2023-07-05T09:45:21.589777-0400 INFO train_cost_bumpy_accuracy 0.853012
+bumpy 2023-07-05T09:45:21.591703-0400 INFO train_cost_bumpy_accuracy_random 0.200391
+bumpy 2023-07-05T09:45:21.593711-0400 INFO train_cost_l2_reg 0.000863
+bumpy 2023-07-05T09:45:21.595298-0400 INFO train_cost_total 0.108741
+bumpy 2023-07-05T09:45:21.597472-0400 DEBUG : total      25.2 (100.0%)
+bumpy 2023-07-05T09:45:21.597673-0400 DEBUG : train      24.9 (98.8%)
+bumpy 2023-07-05T09:45:21.597833-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:45:21.597983-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:45:21.598130-0400 DEBUG 
+bumpy 2023-07-05T09:45:47.545971-0400 INFO 
+bumpy 2023-07-05T09:45:47.547092-0400 INFO Step 59000
+bumpy 2023-07-05T09:45:47.547618-0400 INFO holdout_cost_bumpy 0.224218
+bumpy 2023-07-05T09:45:47.548012-0400 INFO holdout_cost_bumpy_accuracy 0.830469
+bumpy 2023-07-05T09:45:47.548358-0400 INFO holdout_cost_bumpy_accuracy_random 0.160547
+bumpy 2023-07-05T09:45:47.548730-0400 INFO holdout_cost_l2_reg 0.000865
+bumpy 2023-07-05T09:45:47.549094-0400 INFO holdout_cost_total 0.225083
+bumpy 2023-07-05T09:45:47.552834-0400 INFO train_cost_bumpy 0.109136
+bumpy 2023-07-05T09:45:47.557677-0400 INFO train_cost_bumpy_accuracy 0.853383
+bumpy 2023-07-05T09:45:47.559539-0400 INFO train_cost_bumpy_accuracy_random 0.198480
+bumpy 2023-07-05T09:45:47.561096-0400 INFO train_cost_l2_reg 0.000865
+bumpy 2023-07-05T09:45:47.562691-0400 INFO train_cost_total 0.110001
+bumpy 2023-07-05T09:45:47.564022-0400 DEBUG : total      25.9 (100.0%)
+bumpy 2023-07-05T09:45:47.564166-0400 DEBUG : train      25.6 (98.8%)
+bumpy 2023-07-05T09:45:47.564369-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:45:47.564497-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:45:47.564636-0400 DEBUG 
+bumpy 2023-07-05T09:46:12.707449-0400 INFO 
+bumpy 2023-07-05T09:46:12.708156-0400 INFO Step 60000
+bumpy 2023-07-05T09:46:12.708510-0400 INFO holdout_cost_bumpy 0.230505
+bumpy 2023-07-05T09:46:12.708741-0400 INFO holdout_cost_bumpy_accuracy 0.832617
+bumpy 2023-07-05T09:46:12.708944-0400 INFO holdout_cost_bumpy_accuracy_random 0.153125
+bumpy 2023-07-05T09:46:12.709108-0400 INFO holdout_cost_l2_reg 0.000863
+bumpy 2023-07-05T09:46:12.709273-0400 INFO holdout_cost_total 0.231368
+bumpy 2023-07-05T09:46:12.710664-0400 INFO train_cost_bumpy 0.107164
+bumpy 2023-07-05T09:46:12.711939-0400 INFO train_cost_bumpy_accuracy 0.852484
+bumpy 2023-07-05T09:46:12.713243-0400 INFO train_cost_bumpy_accuracy_random 0.200680
+bumpy 2023-07-05T09:46:12.714595-0400 INFO train_cost_l2_reg 0.000863
+bumpy 2023-07-05T09:46:12.715939-0400 INFO train_cost_total 0.108027
+bumpy 2023-07-05T09:46:12.717191-0400 DEBUG : total      25.1 (100.0%)
+bumpy 2023-07-05T09:46:12.717345-0400 DEBUG : train      24.8 (98.6%)
+bumpy 2023-07-05T09:46:12.717447-0400 DEBUG : holdout    0.3 (1.0%)
+bumpy 2023-07-05T09:46:12.717543-0400 DEBUG : save       0.1 (0.2%)
+bumpy 2023-07-05T09:46:12.717636-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:46:12.717727-0400 DEBUG 
+bumpy 2023-07-05T09:46:37.642244-0400 INFO 
+bumpy 2023-07-05T09:46:37.643166-0400 INFO Step 61000
+bumpy 2023-07-05T09:46:37.643576-0400 INFO holdout_cost_bumpy 0.210765
+bumpy 2023-07-05T09:46:37.643910-0400 INFO holdout_cost_bumpy_accuracy 0.846484
+bumpy 2023-07-05T09:46:37.644246-0400 INFO holdout_cost_bumpy_accuracy_random 0.157617
+bumpy 2023-07-05T09:46:37.644576-0400 INFO holdout_cost_l2_reg 0.000863
+bumpy 2023-07-05T09:46:37.644879-0400 INFO holdout_cost_total 0.211627
+bumpy 2023-07-05T09:46:37.648937-0400 INFO train_cost_bumpy 0.106418
+bumpy 2023-07-05T09:46:37.650415-0400 INFO train_cost_bumpy_accuracy 0.853859
+bumpy 2023-07-05T09:46:37.651861-0400 INFO train_cost_bumpy_accuracy_random 0.200270
+bumpy 2023-07-05T09:46:37.653332-0400 INFO train_cost_l2_reg 0.000863
+bumpy 2023-07-05T09:46:37.654876-0400 INFO train_cost_total 0.107281
+bumpy 2023-07-05T09:46:37.656214-0400 DEBUG : total      24.9 (100.0%)
+bumpy 2023-07-05T09:46:37.656356-0400 DEBUG : train      24.6 (98.8%)
+bumpy 2023-07-05T09:46:37.656462-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:46:37.656576-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:46:37.656678-0400 DEBUG 
+bumpy 2023-07-05T09:47:02.657300-0400 INFO 
+bumpy 2023-07-05T09:47:02.658373-0400 INFO Step 62000
+bumpy 2023-07-05T09:47:02.658883-0400 INFO holdout_cost_bumpy 0.227602
+bumpy 2023-07-05T09:47:02.659187-0400 INFO holdout_cost_bumpy_accuracy 0.846875
+bumpy 2023-07-05T09:47:02.659499-0400 INFO holdout_cost_bumpy_accuracy_random 0.160547
+bumpy 2023-07-05T09:47:02.659793-0400 INFO holdout_cost_l2_reg 0.000863
+bumpy 2023-07-05T09:47:02.660075-0400 INFO holdout_cost_total 0.228465
+bumpy 2023-07-05T09:47:02.664312-0400 INFO train_cost_bumpy 0.103690
+bumpy 2023-07-05T09:47:02.668795-0400 INFO train_cost_bumpy_accuracy 0.855473
+bumpy 2023-07-05T09:47:02.670327-0400 INFO train_cost_bumpy_accuracy_random 0.198172
+bumpy 2023-07-05T09:47:02.671727-0400 INFO train_cost_l2_reg 0.000864
+bumpy 2023-07-05T09:47:02.673221-0400 INFO train_cost_total 0.104554
+bumpy 2023-07-05T09:47:02.674478-0400 DEBUG : total      25.0 (100.0%)
+bumpy 2023-07-05T09:47:02.674618-0400 DEBUG : train      24.7 (98.8%)
+bumpy 2023-07-05T09:47:02.674714-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:47:02.674805-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:47:02.674892-0400 DEBUG 
+bumpy 2023-07-05T09:47:27.647656-0400 INFO 
+bumpy 2023-07-05T09:47:27.648503-0400 INFO Step 63000
+bumpy 2023-07-05T09:47:27.648880-0400 INFO holdout_cost_bumpy 0.210289
+bumpy 2023-07-05T09:47:27.649175-0400 INFO holdout_cost_bumpy_accuracy 0.840625
+bumpy 2023-07-05T09:47:27.649446-0400 INFO holdout_cost_bumpy_accuracy_random 0.163281
+bumpy 2023-07-05T09:47:27.649721-0400 INFO holdout_cost_l2_reg 0.000864
+bumpy 2023-07-05T09:47:27.649988-0400 INFO holdout_cost_total 0.211154
+bumpy 2023-07-05T09:47:27.653552-0400 INFO train_cost_bumpy 0.101843
+bumpy 2023-07-05T09:47:27.657206-0400 INFO train_cost_bumpy_accuracy 0.857941
+bumpy 2023-07-05T09:47:27.659726-0400 INFO train_cost_bumpy_accuracy_random 0.199594
+bumpy 2023-07-05T09:47:27.661150-0400 INFO train_cost_l2_reg 0.000864
+bumpy 2023-07-05T09:47:27.662579-0400 INFO train_cost_total 0.102708
+bumpy 2023-07-05T09:47:27.663818-0400 DEBUG : total      25.0 (100.0%)
+bumpy 2023-07-05T09:47:27.663958-0400 DEBUG : train      24.7 (98.9%)
+bumpy 2023-07-05T09:47:27.664059-0400 DEBUG : holdout    0.3 (1.0%)
+bumpy 2023-07-05T09:47:27.664153-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:47:27.664245-0400 DEBUG 
+bumpy 2023-07-05T09:47:52.723858-0400 INFO 
+bumpy 2023-07-05T09:47:52.724870-0400 INFO Step 64000
+bumpy 2023-07-05T09:47:52.725329-0400 INFO holdout_cost_bumpy 0.231947
+bumpy 2023-07-05T09:47:52.725674-0400 INFO holdout_cost_bumpy_accuracy 0.839258
+bumpy 2023-07-05T09:47:52.725988-0400 INFO holdout_cost_bumpy_accuracy_random 0.161523
+bumpy 2023-07-05T09:47:52.726289-0400 INFO holdout_cost_l2_reg 0.000862
+bumpy 2023-07-05T09:47:52.726595-0400 INFO holdout_cost_total 0.232809
+bumpy 2023-07-05T09:47:52.730301-0400 INFO train_cost_bumpy 0.102518
+bumpy 2023-07-05T09:47:52.733389-0400 INFO train_cost_bumpy_accuracy 0.857523
+bumpy 2023-07-05T09:47:52.734916-0400 INFO train_cost_bumpy_accuracy_random 0.202273
+bumpy 2023-07-05T09:47:52.736385-0400 INFO train_cost_l2_reg 0.000862
+bumpy 2023-07-05T09:47:52.737910-0400 INFO train_cost_total 0.103381
+bumpy 2023-07-05T09:47:52.739242-0400 DEBUG : total      25.1 (100.0%)
+bumpy 2023-07-05T09:47:52.739387-0400 DEBUG : train      24.8 (98.8%)
+bumpy 2023-07-05T09:47:52.739490-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:47:52.739585-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:47:52.739676-0400 DEBUG 
+bumpy 2023-07-05T09:48:17.740623-0400 INFO 
+bumpy 2023-07-05T09:48:17.741642-0400 INFO Step 65000
+bumpy 2023-07-05T09:48:17.742151-0400 INFO holdout_cost_bumpy 0.234620
+bumpy 2023-07-05T09:48:17.742542-0400 INFO holdout_cost_bumpy_accuracy 0.843750
+bumpy 2023-07-05T09:48:17.742881-0400 INFO holdout_cost_bumpy_accuracy_random 0.158203
+bumpy 2023-07-05T09:48:17.743222-0400 INFO holdout_cost_l2_reg 0.000863
+bumpy 2023-07-05T09:48:17.743555-0400 INFO holdout_cost_total 0.235483
+bumpy 2023-07-05T09:48:17.747699-0400 INFO train_cost_bumpy 0.100509
+bumpy 2023-07-05T09:48:17.749351-0400 INFO train_cost_bumpy_accuracy 0.859238
+bumpy 2023-07-05T09:48:17.750883-0400 INFO train_cost_bumpy_accuracy_random 0.201250
+bumpy 2023-07-05T09:48:17.752355-0400 INFO train_cost_l2_reg 0.000863
+bumpy 2023-07-05T09:48:17.753903-0400 INFO train_cost_total 0.101372
+bumpy 2023-07-05T09:48:17.755181-0400 DEBUG : total      25.0 (100.0%)
+bumpy 2023-07-05T09:48:17.755317-0400 DEBUG : train      24.7 (98.8%)
+bumpy 2023-07-05T09:48:17.755418-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:48:17.755513-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:48:17.755605-0400 DEBUG 
+bumpy 2023-07-05T09:48:42.820484-0400 INFO 
+bumpy 2023-07-05T09:48:42.822043-0400 INFO Step 66000
+bumpy 2023-07-05T09:48:42.822564-0400 INFO holdout_cost_bumpy 0.206535
+bumpy 2023-07-05T09:48:42.822951-0400 INFO holdout_cost_bumpy_accuracy 0.843555
+bumpy 2023-07-05T09:48:42.823317-0400 INFO holdout_cost_bumpy_accuracy_random 0.147461
+bumpy 2023-07-05T09:48:42.823685-0400 INFO holdout_cost_l2_reg 0.000864
+bumpy 2023-07-05T09:48:42.823996-0400 INFO holdout_cost_total 0.207398
+bumpy 2023-07-05T09:48:42.827823-0400 INFO train_cost_bumpy 0.100175
+bumpy 2023-07-05T09:48:42.832842-0400 INFO train_cost_bumpy_accuracy 0.858570
+bumpy 2023-07-05T09:48:42.834480-0400 INFO train_cost_bumpy_accuracy_random 0.203160
+bumpy 2023-07-05T09:48:42.835988-0400 INFO train_cost_l2_reg 0.000864
+bumpy 2023-07-05T09:48:42.837768-0400 INFO train_cost_total 0.101038
+bumpy 2023-07-05T09:48:42.839121-0400 DEBUG : total      25.1 (100.0%)
+bumpy 2023-07-05T09:48:42.839282-0400 DEBUG : train      24.8 (98.9%)
+bumpy 2023-07-05T09:48:42.839406-0400 DEBUG : holdout    0.3 (1.0%)
+bumpy 2023-07-05T09:48:42.839523-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:48:42.839637-0400 DEBUG 
+bumpy 2023-07-05T09:49:07.993067-0400 INFO 
+bumpy 2023-07-05T09:49:07.994107-0400 INFO Step 67000
+bumpy 2023-07-05T09:49:07.994573-0400 INFO holdout_cost_bumpy 0.225326
+bumpy 2023-07-05T09:49:07.994912-0400 INFO holdout_cost_bumpy_accuracy 0.841992
+bumpy 2023-07-05T09:49:07.995259-0400 INFO holdout_cost_bumpy_accuracy_random 0.166016
+bumpy 2023-07-05T09:49:07.995588-0400 INFO holdout_cost_l2_reg 0.000864
+bumpy 2023-07-05T09:49:07.995891-0400 INFO holdout_cost_total 0.226190
+bumpy 2023-07-05T09:49:07.999359-0400 INFO train_cost_bumpy 0.100693
+bumpy 2023-07-05T09:49:08.004061-0400 INFO train_cost_bumpy_accuracy 0.858164
+bumpy 2023-07-05T09:49:08.008761-0400 INFO train_cost_bumpy_accuracy_random 0.196977
+bumpy 2023-07-05T09:49:08.010226-0400 INFO train_cost_l2_reg 0.000864
+bumpy 2023-07-05T09:49:08.011698-0400 INFO train_cost_total 0.101557
+bumpy 2023-07-05T09:49:08.012971-0400 DEBUG : total      25.1 (100.0%)
+bumpy 2023-07-05T09:49:08.013111-0400 DEBUG : train      24.9 (98.8%)
+bumpy 2023-07-05T09:49:08.013236-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:49:08.013352-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:49:08.013466-0400 DEBUG 
+bumpy 2023-07-05T09:49:33.454403-0400 INFO 
+bumpy 2023-07-05T09:49:33.455409-0400 INFO Step 68000
+bumpy 2023-07-05T09:49:33.456048-0400 INFO holdout_cost_bumpy 0.259448
+bumpy 2023-07-05T09:49:33.456497-0400 INFO holdout_cost_bumpy_accuracy 0.842773
+bumpy 2023-07-05T09:49:33.456924-0400 INFO holdout_cost_bumpy_accuracy_random 0.170117
+bumpy 2023-07-05T09:49:33.457302-0400 INFO holdout_cost_l2_reg 0.000862
+bumpy 2023-07-05T09:49:33.457696-0400 INFO holdout_cost_total 0.260309
+bumpy 2023-07-05T09:49:33.461937-0400 INFO train_cost_bumpy 0.098488
+bumpy 2023-07-05T09:49:33.465415-0400 INFO train_cost_bumpy_accuracy 0.859461
+bumpy 2023-07-05T09:49:33.467025-0400 INFO train_cost_bumpy_accuracy_random 0.202270
+bumpy 2023-07-05T09:49:33.468475-0400 INFO train_cost_l2_reg 0.000862
+bumpy 2023-07-05T09:49:33.469992-0400 INFO train_cost_total 0.099350
+bumpy 2023-07-05T09:49:33.471246-0400 DEBUG : total      25.4 (100.0%)
+bumpy 2023-07-05T09:49:33.471386-0400 DEBUG : train      25.1 (98.8%)
+bumpy 2023-07-05T09:49:33.471489-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:49:33.471584-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:49:33.471676-0400 DEBUG 
+bumpy 2023-07-05T09:49:58.556012-0400 INFO 
+bumpy 2023-07-05T09:49:58.557942-0400 INFO Step 69000
+bumpy 2023-07-05T09:49:58.558395-0400 INFO holdout_cost_bumpy 0.241437
+bumpy 2023-07-05T09:49:58.558709-0400 INFO holdout_cost_bumpy_accuracy 0.843555
+bumpy 2023-07-05T09:49:58.559018-0400 INFO holdout_cost_bumpy_accuracy_random 0.151562
+bumpy 2023-07-05T09:49:58.559297-0400 INFO holdout_cost_l2_reg 0.000863
+bumpy 2023-07-05T09:49:58.559578-0400 INFO holdout_cost_total 0.242300
+bumpy 2023-07-05T09:49:58.564196-0400 INFO train_cost_bumpy 0.098346
+bumpy 2023-07-05T09:49:58.565966-0400 INFO train_cost_bumpy_accuracy 0.860391
+bumpy 2023-07-05T09:49:58.567551-0400 INFO train_cost_bumpy_accuracy_random 0.196715
+bumpy 2023-07-05T09:49:58.569127-0400 INFO train_cost_l2_reg 0.000863
+bumpy 2023-07-05T09:49:58.570697-0400 INFO train_cost_total 0.099209
+bumpy 2023-07-05T09:49:58.572036-0400 DEBUG : total      25.1 (100.0%)
+bumpy 2023-07-05T09:49:58.572183-0400 DEBUG : train      24.8 (98.8%)
+bumpy 2023-07-05T09:49:58.572289-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:49:58.572390-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:49:58.572488-0400 DEBUG 
+bumpy 2023-07-05T09:50:24.296854-0400 INFO 
+bumpy 2023-07-05T09:50:24.297609-0400 INFO Step 70000
+bumpy 2023-07-05T09:50:24.297844-0400 INFO holdout_cost_bumpy 0.235858
+bumpy 2023-07-05T09:50:24.298002-0400 INFO holdout_cost_bumpy_accuracy 0.845508
+bumpy 2023-07-05T09:50:24.298152-0400 INFO holdout_cost_bumpy_accuracy_random 0.160547
+bumpy 2023-07-05T09:50:24.298297-0400 INFO holdout_cost_l2_reg 0.000865
+bumpy 2023-07-05T09:50:24.298442-0400 INFO holdout_cost_total 0.236723
+bumpy 2023-07-05T09:50:24.299960-0400 INFO train_cost_bumpy 0.093846
+bumpy 2023-07-05T09:50:24.301367-0400 INFO train_cost_bumpy_accuracy 0.863918
+bumpy 2023-07-05T09:50:24.302764-0400 INFO train_cost_bumpy_accuracy_random 0.199277
+bumpy 2023-07-05T09:50:24.304100-0400 INFO train_cost_l2_reg 0.000865
+bumpy 2023-07-05T09:50:24.305476-0400 INFO train_cost_total 0.094711
+bumpy 2023-07-05T09:50:24.306779-0400 DEBUG : total      25.7 (100.0%)
+bumpy 2023-07-05T09:50:24.306932-0400 DEBUG : train      25.4 (98.6%)
+bumpy 2023-07-05T09:50:24.307027-0400 DEBUG : holdout    0.3 (1.0%)
+bumpy 2023-07-05T09:50:24.307115-0400 DEBUG : save       0.1 (0.2%)
+bumpy 2023-07-05T09:50:24.307200-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:50:24.307285-0400 DEBUG 
+bumpy 2023-07-05T09:50:49.739265-0400 INFO 
+bumpy 2023-07-05T09:50:49.740275-0400 INFO Step 71000
+bumpy 2023-07-05T09:50:49.740738-0400 INFO holdout_cost_bumpy 0.244807
+bumpy 2023-07-05T09:50:49.741085-0400 INFO holdout_cost_bumpy_accuracy 0.851758
+bumpy 2023-07-05T09:50:49.741371-0400 INFO holdout_cost_bumpy_accuracy_random 0.148242
+bumpy 2023-07-05T09:50:49.741656-0400 INFO holdout_cost_l2_reg 0.000866
+bumpy 2023-07-05T09:50:49.741956-0400 INFO holdout_cost_total 0.245673
+bumpy 2023-07-05T09:50:49.747157-0400 INFO train_cost_bumpy 0.093723
+bumpy 2023-07-05T09:50:49.749520-0400 INFO train_cost_bumpy_accuracy 0.864738
+bumpy 2023-07-05T09:50:49.751265-0400 INFO train_cost_bumpy_accuracy_random 0.199563
+bumpy 2023-07-05T09:50:49.753559-0400 INFO train_cost_l2_reg 0.000866
+bumpy 2023-07-05T09:50:49.755191-0400 INFO train_cost_total 0.094589
+bumpy 2023-07-05T09:50:49.756595-0400 DEBUG : total      25.4 (100.0%)
+bumpy 2023-07-05T09:50:49.756751-0400 DEBUG : train      25.1 (98.8%)
+bumpy 2023-07-05T09:50:49.756872-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:50:49.756975-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:50:49.757076-0400 DEBUG 
+bumpy 2023-07-05T09:51:15.336066-0400 INFO 
+bumpy 2023-07-05T09:51:15.337021-0400 INFO Step 72000
+bumpy 2023-07-05T09:51:15.337533-0400 INFO holdout_cost_bumpy 0.259484
+bumpy 2023-07-05T09:51:15.337919-0400 INFO holdout_cost_bumpy_accuracy 0.843164
+bumpy 2023-07-05T09:51:15.338236-0400 INFO holdout_cost_bumpy_accuracy_random 0.165820
+bumpy 2023-07-05T09:51:15.338605-0400 INFO holdout_cost_l2_reg 0.000864
+bumpy 2023-07-05T09:51:15.338944-0400 INFO holdout_cost_total 0.260348
+bumpy 2023-07-05T09:51:15.342776-0400 INFO train_cost_bumpy 0.093699
+bumpy 2023-07-05T09:51:15.344738-0400 INFO train_cost_bumpy_accuracy 0.864453
+bumpy 2023-07-05T09:51:15.346106-0400 INFO train_cost_bumpy_accuracy_random 0.199340
+bumpy 2023-07-05T09:51:15.347462-0400 INFO train_cost_l2_reg 0.000864
+bumpy 2023-07-05T09:51:15.348967-0400 INFO train_cost_total 0.094563
+bumpy 2023-07-05T09:51:15.350410-0400 DEBUG : total      25.6 (100.0%)
+bumpy 2023-07-05T09:51:15.350578-0400 DEBUG : train      25.3 (98.8%)
+bumpy 2023-07-05T09:51:15.350670-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:51:15.350754-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:51:15.350853-0400 DEBUG 
+bumpy 2023-07-05T09:51:40.458677-0400 INFO 
+bumpy 2023-07-05T09:51:40.459627-0400 INFO Step 73000
+bumpy 2023-07-05T09:51:40.460054-0400 INFO holdout_cost_bumpy 0.230634
+bumpy 2023-07-05T09:51:40.460385-0400 INFO holdout_cost_bumpy_accuracy 0.851367
+bumpy 2023-07-05T09:51:40.460730-0400 INFO holdout_cost_bumpy_accuracy_random 0.134180
+bumpy 2023-07-05T09:51:40.461033-0400 INFO holdout_cost_l2_reg 0.000863
+bumpy 2023-07-05T09:51:40.461326-0400 INFO holdout_cost_total 0.231497
+bumpy 2023-07-05T09:51:40.464843-0400 INFO train_cost_bumpy 0.092665
+bumpy 2023-07-05T09:51:40.469059-0400 INFO train_cost_bumpy_accuracy 0.865090
+bumpy 2023-07-05T09:51:40.472827-0400 INFO train_cost_bumpy_accuracy_random 0.202434
+bumpy 2023-07-05T09:51:40.476837-0400 INFO train_cost_l2_reg 0.000863
+bumpy 2023-07-05T09:51:40.480999-0400 INFO train_cost_total 0.093528
+bumpy 2023-07-05T09:51:40.482473-0400 DEBUG : total      25.1 (100.0%)
+bumpy 2023-07-05T09:51:40.482622-0400 DEBUG : train      24.8 (98.8%)
+bumpy 2023-07-05T09:51:40.482722-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:51:40.482830-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:51:40.482923-0400 DEBUG 
+bumpy 2023-07-05T09:52:05.978243-0400 INFO 
+bumpy 2023-07-05T09:52:05.978936-0400 INFO Step 74000
+bumpy 2023-07-05T09:52:05.979196-0400 INFO holdout_cost_bumpy 0.285687
+bumpy 2023-07-05T09:52:05.979362-0400 INFO holdout_cost_bumpy_accuracy 0.834766
+bumpy 2023-07-05T09:52:05.979522-0400 INFO holdout_cost_bumpy_accuracy_random 0.157227
+bumpy 2023-07-05T09:52:05.979676-0400 INFO holdout_cost_l2_reg 0.000865
+bumpy 2023-07-05T09:52:05.979831-0400 INFO holdout_cost_total 0.286552
+bumpy 2023-07-05T09:52:05.981347-0400 INFO train_cost_bumpy 0.092691
+bumpy 2023-07-05T09:52:05.982711-0400 INFO train_cost_bumpy_accuracy 0.865539
+bumpy 2023-07-05T09:52:05.984069-0400 INFO train_cost_bumpy_accuracy_random 0.201777
+bumpy 2023-07-05T09:52:05.985425-0400 INFO train_cost_l2_reg 0.000865
+bumpy 2023-07-05T09:52:05.986844-0400 INFO train_cost_total 0.093556
+bumpy 2023-07-05T09:52:05.988051-0400 DEBUG : total      25.5 (100.0%)
+bumpy 2023-07-05T09:52:05.988187-0400 DEBUG : train      25.2 (98.8%)
+bumpy 2023-07-05T09:52:05.988292-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:52:05.988387-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:52:05.988479-0400 DEBUG 
+bumpy 2023-07-05T09:52:31.072356-0400 INFO 
+bumpy 2023-07-05T09:52:31.073312-0400 INFO Step 75000
+bumpy 2023-07-05T09:52:31.073728-0400 INFO holdout_cost_bumpy 0.271224
+bumpy 2023-07-05T09:52:31.074042-0400 INFO holdout_cost_bumpy_accuracy 0.850586
+bumpy 2023-07-05T09:52:31.074338-0400 INFO holdout_cost_bumpy_accuracy_random 0.157617
+bumpy 2023-07-05T09:52:31.074631-0400 INFO holdout_cost_l2_reg 0.000863
+bumpy 2023-07-05T09:52:31.074945-0400 INFO holdout_cost_total 0.272087
+bumpy 2023-07-05T09:52:31.078929-0400 INFO train_cost_bumpy 0.092749
+bumpy 2023-07-05T09:52:31.084459-0400 INFO train_cost_bumpy_accuracy 0.865902
+bumpy 2023-07-05T09:52:31.086458-0400 INFO train_cost_bumpy_accuracy_random 0.196711
+bumpy 2023-07-05T09:52:31.088134-0400 INFO train_cost_l2_reg 0.000863
+bumpy 2023-07-05T09:52:31.090024-0400 INFO train_cost_total 0.093613
+bumpy 2023-07-05T09:52:31.091557-0400 DEBUG : total      25.1 (100.0%)
+bumpy 2023-07-05T09:52:31.091720-0400 DEBUG : train      24.8 (98.8%)
+bumpy 2023-07-05T09:52:31.091837-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:52:31.091948-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:52:31.092053-0400 DEBUG 
+bumpy 2023-07-05T09:52:56.647997-0400 INFO 
+bumpy 2023-07-05T09:52:56.649370-0400 INFO Step 76000
+bumpy 2023-07-05T09:52:56.649866-0400 INFO holdout_cost_bumpy 0.238387
+bumpy 2023-07-05T09:52:56.650217-0400 INFO holdout_cost_bumpy_accuracy 0.828906
+bumpy 2023-07-05T09:52:56.650574-0400 INFO holdout_cost_bumpy_accuracy_random 0.161719
+bumpy 2023-07-05T09:52:56.650879-0400 INFO holdout_cost_l2_reg 0.000861
+bumpy 2023-07-05T09:52:56.651173-0400 INFO holdout_cost_total 0.239248
+bumpy 2023-07-05T09:52:56.655749-0400 INFO train_cost_bumpy 0.090807
+bumpy 2023-07-05T09:52:56.657834-0400 INFO train_cost_bumpy_accuracy 0.867203
+bumpy 2023-07-05T09:52:56.659381-0400 INFO train_cost_bumpy_accuracy_random 0.202039
+bumpy 2023-07-05T09:52:56.661030-0400 INFO train_cost_l2_reg 0.000861
+bumpy 2023-07-05T09:52:56.662680-0400 INFO train_cost_total 0.091668
+bumpy 2023-07-05T09:52:56.664080-0400 DEBUG : total      25.5 (100.0%)
+bumpy 2023-07-05T09:52:56.664220-0400 DEBUG : train      25.3 (98.8%)
+bumpy 2023-07-05T09:52:56.664319-0400 DEBUG : holdout    0.3 (1.0%)
+bumpy 2023-07-05T09:52:56.664413-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:52:56.664504-0400 DEBUG 
+bumpy 2023-07-05T09:53:21.882796-0400 INFO 
+bumpy 2023-07-05T09:53:21.883585-0400 INFO Step 77000
+bumpy 2023-07-05T09:53:21.883993-0400 INFO holdout_cost_bumpy 0.248982
+bumpy 2023-07-05T09:53:21.884289-0400 INFO holdout_cost_bumpy_accuracy 0.835938
+bumpy 2023-07-05T09:53:21.884595-0400 INFO holdout_cost_bumpy_accuracy_random 0.158789
+bumpy 2023-07-05T09:53:21.884952-0400 INFO holdout_cost_l2_reg 0.000864
+bumpy 2023-07-05T09:53:21.885244-0400 INFO holdout_cost_total 0.249846
+bumpy 2023-07-05T09:53:21.888697-0400 INFO train_cost_bumpy 0.089998
+bumpy 2023-07-05T09:53:21.892335-0400 INFO train_cost_bumpy_accuracy 0.865836
+bumpy 2023-07-05T09:53:21.897791-0400 INFO train_cost_bumpy_accuracy_random 0.198164
+bumpy 2023-07-05T09:53:21.901137-0400 INFO train_cost_l2_reg 0.000864
+bumpy 2023-07-05T09:53:21.902653-0400 INFO train_cost_total 0.090862
+bumpy 2023-07-05T09:53:21.904082-0400 DEBUG : total      25.2 (100.0%)
+bumpy 2023-07-05T09:53:21.904229-0400 DEBUG : train      24.9 (98.8%)
+bumpy 2023-07-05T09:53:21.904338-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:53:21.904441-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:53:21.904540-0400 DEBUG 
+bumpy 2023-07-05T09:53:47.121195-0400 INFO 
+bumpy 2023-07-05T09:53:47.122226-0400 INFO Step 78000
+bumpy 2023-07-05T09:53:47.122701-0400 INFO holdout_cost_bumpy 0.274464
+bumpy 2023-07-05T09:53:47.123070-0400 INFO holdout_cost_bumpy_accuracy 0.852539
+bumpy 2023-07-05T09:53:47.123396-0400 INFO holdout_cost_bumpy_accuracy_random 0.133789
+bumpy 2023-07-05T09:53:47.123718-0400 INFO holdout_cost_l2_reg 0.000864
+bumpy 2023-07-05T09:53:47.124033-0400 INFO holdout_cost_total 0.275328
+bumpy 2023-07-05T09:53:47.128022-0400 INFO train_cost_bumpy 0.086740
+bumpy 2023-07-05T09:53:47.132966-0400 INFO train_cost_bumpy_accuracy 0.870895
+bumpy 2023-07-05T09:53:47.134921-0400 INFO train_cost_bumpy_accuracy_random 0.200926
+bumpy 2023-07-05T09:53:47.136648-0400 INFO train_cost_l2_reg 0.000864
+bumpy 2023-07-05T09:53:47.138352-0400 INFO train_cost_total 0.087604
+bumpy 2023-07-05T09:53:47.139795-0400 DEBUG : total      25.2 (100.0%)
+bumpy 2023-07-05T09:53:47.139944-0400 DEBUG : train      24.9 (98.8%)
+bumpy 2023-07-05T09:53:47.140054-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:53:47.140157-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:53:47.140258-0400 DEBUG 
+bumpy 2023-07-05T09:54:12.398001-0400 INFO 
+bumpy 2023-07-05T09:54:12.399699-0400 INFO Step 79000
+bumpy 2023-07-05T09:54:12.400270-0400 INFO holdout_cost_bumpy 0.287324
+bumpy 2023-07-05T09:54:12.400658-0400 INFO holdout_cost_bumpy_accuracy 0.827734
+bumpy 2023-07-05T09:54:12.400985-0400 INFO holdout_cost_bumpy_accuracy_random 0.158789
+bumpy 2023-07-05T09:54:12.401274-0400 INFO holdout_cost_l2_reg 0.000865
+bumpy 2023-07-05T09:54:12.401595-0400 INFO holdout_cost_total 0.288188
+bumpy 2023-07-05T09:54:12.405400-0400 INFO train_cost_bumpy 0.086929
+bumpy 2023-07-05T09:54:12.409737-0400 INFO train_cost_bumpy_accuracy 0.870977
+bumpy 2023-07-05T09:54:12.415770-0400 INFO train_cost_bumpy_accuracy_random 0.199949
+bumpy 2023-07-05T09:54:12.420802-0400 INFO train_cost_l2_reg 0.000865
+bumpy 2023-07-05T09:54:12.422614-0400 INFO train_cost_total 0.087794
+bumpy 2023-07-05T09:54:12.427393-0400 DEBUG : total      25.3 (100.0%)
+bumpy 2023-07-05T09:54:12.427604-0400 DEBUG : train      25.0 (98.8%)
+bumpy 2023-07-05T09:54:12.427724-0400 DEBUG : holdout    0.3 (1.0%)
+bumpy 2023-07-05T09:54:12.427831-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:54:12.427950-0400 DEBUG 
+bumpy 2023-07-05T09:54:37.996801-0400 INFO 
+bumpy 2023-07-05T09:54:37.997492-0400 INFO Step 80000
+bumpy 2023-07-05T09:54:37.997753-0400 INFO holdout_cost_bumpy 0.266397
+bumpy 2023-07-05T09:54:37.997931-0400 INFO holdout_cost_bumpy_accuracy 0.849414
+bumpy 2023-07-05T09:54:37.998096-0400 INFO holdout_cost_bumpy_accuracy_random 0.142969
+bumpy 2023-07-05T09:54:37.998257-0400 INFO holdout_cost_l2_reg 0.000864
+bumpy 2023-07-05T09:54:37.998418-0400 INFO holdout_cost_total 0.267261
+bumpy 2023-07-05T09:54:38.000006-0400 INFO train_cost_bumpy 0.087078
+bumpy 2023-07-05T09:54:38.001493-0400 INFO train_cost_bumpy_accuracy 0.869613
+bumpy 2023-07-05T09:54:38.002982-0400 INFO train_cost_bumpy_accuracy_random 0.203902
+bumpy 2023-07-05T09:54:38.006596-0400 INFO train_cost_l2_reg 0.000864
+bumpy 2023-07-05T09:54:38.008174-0400 INFO train_cost_total 0.087942
+bumpy 2023-07-05T09:54:38.009690-0400 DEBUG : total      25.6 (100.0%)
+bumpy 2023-07-05T09:54:38.009881-0400 DEBUG : train      25.2 (98.6%)
+bumpy 2023-07-05T09:54:38.009987-0400 DEBUG : holdout    0.3 (1.0%)
+bumpy 2023-07-05T09:54:38.010091-0400 DEBUG : save       0.1 (0.2%)
+bumpy 2023-07-05T09:54:38.010187-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:54:38.010278-0400 DEBUG 
+bumpy 2023-07-05T09:55:03.527997-0400 INFO 
+bumpy 2023-07-05T09:55:03.531836-0400 INFO Step 81000
+bumpy 2023-07-05T09:55:03.532355-0400 INFO holdout_cost_bumpy 0.298023
+bumpy 2023-07-05T09:55:03.532656-0400 INFO holdout_cost_bumpy_accuracy 0.846094
+bumpy 2023-07-05T09:55:03.532926-0400 INFO holdout_cost_bumpy_accuracy_random 0.160742
+bumpy 2023-07-05T09:55:03.533191-0400 INFO holdout_cost_l2_reg 0.000864
+bumpy 2023-07-05T09:55:03.533458-0400 INFO holdout_cost_total 0.298888
+bumpy 2023-07-05T09:55:03.535460-0400 INFO train_cost_bumpy 0.085438
+bumpy 2023-07-05T09:55:03.536796-0400 INFO train_cost_bumpy_accuracy 0.871188
+bumpy 2023-07-05T09:55:03.538111-0400 INFO train_cost_bumpy_accuracy_random 0.200129
+bumpy 2023-07-05T09:55:03.539411-0400 INFO train_cost_l2_reg 0.000864
+bumpy 2023-07-05T09:55:03.541310-0400 INFO train_cost_total 0.086303
+bumpy 2023-07-05T09:55:03.542580-0400 DEBUG : total      25.5 (100.0%)
+bumpy 2023-07-05T09:55:03.542743-0400 DEBUG : train      25.2 (98.8%)
+bumpy 2023-07-05T09:55:03.542840-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:55:03.542930-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:55:03.543017-0400 DEBUG 
+bumpy 2023-07-05T09:55:28.828675-0400 INFO 
+bumpy 2023-07-05T09:55:28.829815-0400 INFO Step 82000
+bumpy 2023-07-05T09:55:28.830275-0400 INFO holdout_cost_bumpy 0.290804
+bumpy 2023-07-05T09:55:28.830632-0400 INFO holdout_cost_bumpy_accuracy 0.846680
+bumpy 2023-07-05T09:55:28.830934-0400 INFO holdout_cost_bumpy_accuracy_random 0.147070
+bumpy 2023-07-05T09:55:28.831270-0400 INFO holdout_cost_l2_reg 0.000866
+bumpy 2023-07-05T09:55:28.831628-0400 INFO holdout_cost_total 0.291669
+bumpy 2023-07-05T09:55:28.836975-0400 INFO train_cost_bumpy 0.086284
+bumpy 2023-07-05T09:55:28.842762-0400 INFO train_cost_bumpy_accuracy 0.870305
+bumpy 2023-07-05T09:55:28.845557-0400 INFO train_cost_bumpy_accuracy_random 0.200762
+bumpy 2023-07-05T09:55:28.850698-0400 INFO train_cost_l2_reg 0.000866
+bumpy 2023-07-05T09:55:28.852385-0400 INFO train_cost_total 0.087149
+bumpy 2023-07-05T09:55:28.853836-0400 DEBUG : total      25.3 (100.0%)
+bumpy 2023-07-05T09:55:28.854003-0400 DEBUG : train      25.0 (98.8%)
+bumpy 2023-07-05T09:55:28.854115-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:55:28.854205-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:55:28.854293-0400 DEBUG 
+bumpy 2023-07-05T09:55:54.162903-0400 INFO 
+bumpy 2023-07-05T09:55:54.164085-0400 INFO Step 83000
+bumpy 2023-07-05T09:55:54.164622-0400 INFO holdout_cost_bumpy 0.269135
+bumpy 2023-07-05T09:55:54.164979-0400 INFO holdout_cost_bumpy_accuracy 0.861133
+bumpy 2023-07-05T09:55:54.165332-0400 INFO holdout_cost_bumpy_accuracy_random 0.141016
+bumpy 2023-07-05T09:55:54.165662-0400 INFO holdout_cost_l2_reg 0.000864
+bumpy 2023-07-05T09:55:54.166001-0400 INFO holdout_cost_total 0.269999
+bumpy 2023-07-05T09:55:54.169939-0400 INFO train_cost_bumpy 0.084919
+bumpy 2023-07-05T09:55:54.175086-0400 INFO train_cost_bumpy_accuracy 0.872988
+bumpy 2023-07-05T09:55:54.181069-0400 INFO train_cost_bumpy_accuracy_random 0.198871
+bumpy 2023-07-05T09:55:54.184046-0400 INFO train_cost_l2_reg 0.000864
+bumpy 2023-07-05T09:55:54.185676-0400 INFO train_cost_total 0.085784
+bumpy 2023-07-05T09:55:54.187075-0400 DEBUG : total      25.3 (100.0%)
+bumpy 2023-07-05T09:55:54.187224-0400 DEBUG : train      25.0 (98.8%)
+bumpy 2023-07-05T09:55:54.187341-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:55:54.187445-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:55:54.187546-0400 DEBUG 
+bumpy 2023-07-05T09:56:19.886778-0400 INFO 
+bumpy 2023-07-05T09:56:19.887558-0400 INFO Step 84000
+bumpy 2023-07-05T09:56:19.887935-0400 INFO holdout_cost_bumpy 0.285771
+bumpy 2023-07-05T09:56:19.888248-0400 INFO holdout_cost_bumpy_accuracy 0.841406
+bumpy 2023-07-05T09:56:19.888564-0400 INFO holdout_cost_bumpy_accuracy_random 0.154883
+bumpy 2023-07-05T09:56:19.888875-0400 INFO holdout_cost_l2_reg 0.000863
+bumpy 2023-07-05T09:56:19.889176-0400 INFO holdout_cost_total 0.286634
+bumpy 2023-07-05T09:56:19.893086-0400 INFO train_cost_bumpy 0.084359
+bumpy 2023-07-05T09:56:19.894683-0400 INFO train_cost_bumpy_accuracy 0.872687
+bumpy 2023-07-05T09:56:19.896226-0400 INFO train_cost_bumpy_accuracy_random 0.199254
+bumpy 2023-07-05T09:56:19.897733-0400 INFO train_cost_l2_reg 0.000863
+bumpy 2023-07-05T09:56:19.900285-0400 INFO train_cost_total 0.085222
+bumpy 2023-07-05T09:56:19.904088-0400 DEBUG : total      25.7 (100.0%)
+bumpy 2023-07-05T09:56:19.904297-0400 DEBUG : train      25.4 (98.8%)
+bumpy 2023-07-05T09:56:19.904417-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:56:19.904517-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:56:19.904636-0400 DEBUG 
+bumpy 2023-07-05T09:56:45.082684-0400 INFO 
+bumpy 2023-07-05T09:56:45.083763-0400 INFO Step 85000
+bumpy 2023-07-05T09:56:45.084267-0400 INFO holdout_cost_bumpy 0.273820
+bumpy 2023-07-05T09:56:45.084660-0400 INFO holdout_cost_bumpy_accuracy 0.850977
+bumpy 2023-07-05T09:56:45.084986-0400 INFO holdout_cost_bumpy_accuracy_random 0.148242
+bumpy 2023-07-05T09:56:45.085297-0400 INFO holdout_cost_l2_reg 0.000864
+bumpy 2023-07-05T09:56:45.085619-0400 INFO holdout_cost_total 0.274685
+bumpy 2023-07-05T09:56:45.089399-0400 INFO train_cost_bumpy 0.081511
+bumpy 2023-07-05T09:56:45.093855-0400 INFO train_cost_bumpy_accuracy 0.875926
+bumpy 2023-07-05T09:56:45.097100-0400 INFO train_cost_bumpy_accuracy_random 0.199730
+bumpy 2023-07-05T09:56:45.098810-0400 INFO train_cost_l2_reg 0.000864
+bumpy 2023-07-05T09:56:45.100444-0400 INFO train_cost_total 0.082376
+bumpy 2023-07-05T09:56:45.101856-0400 DEBUG : total      25.2 (100.0%)
+bumpy 2023-07-05T09:56:45.102009-0400 DEBUG : train      24.9 (98.8%)
+bumpy 2023-07-05T09:56:45.102118-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:56:45.102219-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:56:45.102317-0400 DEBUG 
+bumpy 2023-07-05T09:57:10.244574-0400 INFO 
+bumpy 2023-07-05T09:57:10.245333-0400 INFO Step 86000
+bumpy 2023-07-05T09:57:10.245712-0400 INFO holdout_cost_bumpy 0.300160
+bumpy 2023-07-05T09:57:10.246003-0400 INFO holdout_cost_bumpy_accuracy 0.846289
+bumpy 2023-07-05T09:57:10.246284-0400 INFO holdout_cost_bumpy_accuracy_random 0.163672
+bumpy 2023-07-05T09:57:10.246588-0400 INFO holdout_cost_l2_reg 0.000865
+bumpy 2023-07-05T09:57:10.246870-0400 INFO holdout_cost_total 0.301025
+bumpy 2023-07-05T09:57:10.250043-0400 INFO train_cost_bumpy 0.080505
+bumpy 2023-07-05T09:57:10.253067-0400 INFO train_cost_bumpy_accuracy 0.877465
+bumpy 2023-07-05T09:57:10.254425-0400 INFO train_cost_bumpy_accuracy_random 0.200746
+bumpy 2023-07-05T09:57:10.255709-0400 INFO train_cost_l2_reg 0.000865
+bumpy 2023-07-05T09:57:10.257187-0400 INFO train_cost_total 0.081369
+bumpy 2023-07-05T09:57:10.258732-0400 DEBUG : total      25.1 (100.0%)
+bumpy 2023-07-05T09:57:10.258900-0400 DEBUG : train      24.8 (98.9%)
+bumpy 2023-07-05T09:57:10.258995-0400 DEBUG : holdout    0.3 (1.0%)
+bumpy 2023-07-05T09:57:10.259099-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:57:10.259185-0400 DEBUG 
+bumpy 2023-07-05T09:57:35.480631-0400 INFO 
+bumpy 2023-07-05T09:57:35.481528-0400 INFO Step 87000
+bumpy 2023-07-05T09:57:35.481958-0400 INFO holdout_cost_bumpy 0.268211
+bumpy 2023-07-05T09:57:35.482273-0400 INFO holdout_cost_bumpy_accuracy 0.847656
+bumpy 2023-07-05T09:57:35.482577-0400 INFO holdout_cost_bumpy_accuracy_random 0.149609
+bumpy 2023-07-05T09:57:35.482877-0400 INFO holdout_cost_l2_reg 0.000865
+bumpy 2023-07-05T09:57:35.483177-0400 INFO holdout_cost_total 0.269076
+bumpy 2023-07-05T09:57:35.486712-0400 INFO train_cost_bumpy 0.081384
+bumpy 2023-07-05T09:57:35.490331-0400 INFO train_cost_bumpy_accuracy 0.875254
+bumpy 2023-07-05T09:57:35.494286-0400 INFO train_cost_bumpy_accuracy_random 0.202164
+bumpy 2023-07-05T09:57:35.497308-0400 INFO train_cost_l2_reg 0.000866
+bumpy 2023-07-05T09:57:35.498841-0400 INFO train_cost_total 0.082249
+bumpy 2023-07-05T09:57:35.500177-0400 DEBUG : total      25.2 (100.0%)
+bumpy 2023-07-05T09:57:35.500315-0400 DEBUG : train      24.9 (98.8%)
+bumpy 2023-07-05T09:57:35.500477-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:57:35.500614-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:57:35.500717-0400 DEBUG 
+bumpy 2023-07-05T09:58:00.663270-0400 INFO 
+bumpy 2023-07-05T09:58:00.664434-0400 INFO Step 88000
+bumpy 2023-07-05T09:58:00.664945-0400 INFO holdout_cost_bumpy 0.301828
+bumpy 2023-07-05T09:58:00.665276-0400 INFO holdout_cost_bumpy_accuracy 0.839063
+bumpy 2023-07-05T09:58:00.665598-0400 INFO holdout_cost_bumpy_accuracy_random 0.159570
+bumpy 2023-07-05T09:58:00.665900-0400 INFO holdout_cost_l2_reg 0.000865
+bumpy 2023-07-05T09:58:00.666205-0400 INFO holdout_cost_total 0.302693
+bumpy 2023-07-05T09:58:00.669305-0400 INFO train_cost_bumpy 0.080503
+bumpy 2023-07-05T09:58:00.670840-0400 INFO train_cost_bumpy_accuracy 0.875078
+bumpy 2023-07-05T09:58:00.672357-0400 INFO train_cost_bumpy_accuracy_random 0.202793
+bumpy 2023-07-05T09:58:00.673831-0400 INFO train_cost_l2_reg 0.000865
+bumpy 2023-07-05T09:58:00.675395-0400 INFO train_cost_total 0.081368
+bumpy 2023-07-05T09:58:00.677008-0400 DEBUG : total      25.2 (100.0%)
+bumpy 2023-07-05T09:58:00.677193-0400 DEBUG : train      24.9 (98.8%)
+bumpy 2023-07-05T09:58:00.677301-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:58:00.677400-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:58:00.677495-0400 DEBUG 
+bumpy 2023-07-05T09:58:25.871811-0400 INFO 
+bumpy 2023-07-05T09:58:25.872851-0400 INFO Step 89000
+bumpy 2023-07-05T09:58:25.873337-0400 INFO holdout_cost_bumpy 0.268507
+bumpy 2023-07-05T09:58:25.873708-0400 INFO holdout_cost_bumpy_accuracy 0.834570
+bumpy 2023-07-05T09:58:25.874041-0400 INFO holdout_cost_bumpy_accuracy_random 0.150000
+bumpy 2023-07-05T09:58:25.874371-0400 INFO holdout_cost_l2_reg 0.000867
+bumpy 2023-07-05T09:58:25.874702-0400 INFO holdout_cost_total 0.269374
+bumpy 2023-07-05T09:58:25.878406-0400 INFO train_cost_bumpy 0.079713
+bumpy 2023-07-05T09:58:25.882331-0400 INFO train_cost_bumpy_accuracy 0.878090
+bumpy 2023-07-05T09:58:25.886749-0400 INFO train_cost_bumpy_accuracy_random 0.202133
+bumpy 2023-07-05T09:58:25.892422-0400 INFO train_cost_l2_reg 0.000867
+bumpy 2023-07-05T09:58:25.894142-0400 INFO train_cost_total 0.080580
+bumpy 2023-07-05T09:58:25.895549-0400 DEBUG : total      25.2 (100.0%)
+bumpy 2023-07-05T09:58:25.895712-0400 DEBUG : train      24.9 (98.8%)
+bumpy 2023-07-05T09:58:25.895819-0400 DEBUG : holdout    0.3 (1.0%)
+bumpy 2023-07-05T09:58:25.895920-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:58:25.896017-0400 DEBUG 
+bumpy 2023-07-05T09:58:51.239444-0400 INFO 
+bumpy 2023-07-05T09:58:51.240081-0400 INFO Step 90000
+bumpy 2023-07-05T09:58:51.240360-0400 INFO holdout_cost_bumpy 0.319290
+bumpy 2023-07-05T09:58:51.240609-0400 INFO holdout_cost_bumpy_accuracy 0.841602
+bumpy 2023-07-05T09:58:51.240802-0400 INFO holdout_cost_bumpy_accuracy_random 0.161719
+bumpy 2023-07-05T09:58:51.240988-0400 INFO holdout_cost_l2_reg 0.000869
+bumpy 2023-07-05T09:58:51.241173-0400 INFO holdout_cost_total 0.320159
+bumpy 2023-07-05T09:58:51.242844-0400 INFO train_cost_bumpy 0.079099
+bumpy 2023-07-05T09:58:51.245517-0400 INFO train_cost_bumpy_accuracy 0.877703
+bumpy 2023-07-05T09:58:51.247114-0400 INFO train_cost_bumpy_accuracy_random 0.194684
+bumpy 2023-07-05T09:58:51.248718-0400 INFO train_cost_l2_reg 0.000869
+bumpy 2023-07-05T09:58:51.250291-0400 INFO train_cost_total 0.079968
+bumpy 2023-07-05T09:58:51.251880-0400 DEBUG : total      25.3 (100.0%)
+bumpy 2023-07-05T09:58:51.252083-0400 DEBUG : train      25.0 (98.6%)
+bumpy 2023-07-05T09:58:51.252203-0400 DEBUG : holdout    0.3 (1.0%)
+bumpy 2023-07-05T09:58:51.252315-0400 DEBUG : save       0.1 (0.2%)
+bumpy 2023-07-05T09:58:51.252425-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:58:51.252534-0400 DEBUG 
+bumpy 2023-07-05T09:59:16.592299-0400 INFO 
+bumpy 2023-07-05T09:59:16.593213-0400 INFO Step 91000
+bumpy 2023-07-05T09:59:16.593601-0400 INFO holdout_cost_bumpy 0.314895
+bumpy 2023-07-05T09:59:16.594017-0400 INFO holdout_cost_bumpy_accuracy 0.841992
+bumpy 2023-07-05T09:59:16.594363-0400 INFO holdout_cost_bumpy_accuracy_random 0.157422
+bumpy 2023-07-05T09:59:16.594727-0400 INFO holdout_cost_l2_reg 0.000867
+bumpy 2023-07-05T09:59:16.595064-0400 INFO holdout_cost_total 0.315762
+bumpy 2023-07-05T09:59:16.598062-0400 INFO train_cost_bumpy 0.077504
+bumpy 2023-07-05T09:59:16.599673-0400 INFO train_cost_bumpy_accuracy 0.880031
+bumpy 2023-07-05T09:59:16.601259-0400 INFO train_cost_bumpy_accuracy_random 0.201027
+bumpy 2023-07-05T09:59:16.602769-0400 INFO train_cost_l2_reg 0.000867
+bumpy 2023-07-05T09:59:16.604834-0400 INFO train_cost_total 0.078371
+bumpy 2023-07-05T09:59:16.606447-0400 DEBUG : total      25.3 (100.0%)
+bumpy 2023-07-05T09:59:16.606633-0400 DEBUG : train      25.0 (98.8%)
+bumpy 2023-07-05T09:59:16.606768-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:59:16.606895-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:59:16.607017-0400 DEBUG 
+bumpy 2023-07-05T09:59:42.149439-0400 INFO 
+bumpy 2023-07-05T09:59:42.150594-0400 INFO Step 92000
+bumpy 2023-07-05T09:59:42.151031-0400 INFO holdout_cost_bumpy 0.267880
+bumpy 2023-07-05T09:59:42.151433-0400 INFO holdout_cost_bumpy_accuracy 0.851953
+bumpy 2023-07-05T09:59:42.151751-0400 INFO holdout_cost_bumpy_accuracy_random 0.141016
+bumpy 2023-07-05T09:59:42.152076-0400 INFO holdout_cost_l2_reg 0.000867
+bumpy 2023-07-05T09:59:42.152394-0400 INFO holdout_cost_total 0.268748
+bumpy 2023-07-05T09:59:42.155993-0400 INFO train_cost_bumpy 0.078721
+bumpy 2023-07-05T09:59:42.162017-0400 INFO train_cost_bumpy_accuracy 0.879074
+bumpy 2023-07-05T09:59:42.166190-0400 INFO train_cost_bumpy_accuracy_random 0.195219
+bumpy 2023-07-05T09:59:42.170852-0400 INFO train_cost_l2_reg 0.000867
+bumpy 2023-07-05T09:59:42.172515-0400 INFO train_cost_total 0.079589
+bumpy 2023-07-05T09:59:42.174174-0400 DEBUG : total      25.5 (100.0%)
+bumpy 2023-07-05T09:59:42.174378-0400 DEBUG : train      25.2 (98.8%)
+bumpy 2023-07-05T09:59:42.174490-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T09:59:42.174592-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T09:59:42.174794-0400 DEBUG 
+bumpy 2023-07-05T10:00:12.009284-0400 INFO 
+bumpy 2023-07-05T10:00:12.010395-0400 INFO Step 93000
+bumpy 2023-07-05T10:00:12.010946-0400 INFO holdout_cost_bumpy 0.285347
+bumpy 2023-07-05T10:00:12.011319-0400 INFO holdout_cost_bumpy_accuracy 0.854297
+bumpy 2023-07-05T10:00:12.011688-0400 INFO holdout_cost_bumpy_accuracy_random 0.148047
+bumpy 2023-07-05T10:00:12.012071-0400 INFO holdout_cost_l2_reg 0.000867
+bumpy 2023-07-05T10:00:12.012411-0400 INFO holdout_cost_total 0.286214
+bumpy 2023-07-05T10:00:12.017359-0400 INFO train_cost_bumpy 0.075019
+bumpy 2023-07-05T10:00:12.020663-0400 INFO train_cost_bumpy_accuracy 0.882566
+bumpy 2023-07-05T10:00:12.024538-0400 INFO train_cost_bumpy_accuracy_random 0.200625
+bumpy 2023-07-05T10:00:12.028914-0400 INFO train_cost_l2_reg 0.000867
+bumpy 2023-07-05T10:00:12.032851-0400 INFO train_cost_total 0.075886
+bumpy 2023-07-05T10:00:12.034651-0400 DEBUG : total      29.8 (100.0%)
+bumpy 2023-07-05T10:00:12.034868-0400 DEBUG : train      29.4 (98.7%)
+bumpy 2023-07-05T10:00:12.034999-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T10:00:12.035101-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T10:00:12.035199-0400 DEBUG 
+bumpy 2023-07-05T10:00:40.128642-0400 INFO 
+bumpy 2023-07-05T10:00:40.130204-0400 INFO Step 94000
+bumpy 2023-07-05T10:00:40.130753-0400 INFO holdout_cost_bumpy 0.293232
+bumpy 2023-07-05T10:00:40.131079-0400 INFO holdout_cost_bumpy_accuracy 0.839063
+bumpy 2023-07-05T10:00:40.131427-0400 INFO holdout_cost_bumpy_accuracy_random 0.158398
+bumpy 2023-07-05T10:00:40.131735-0400 INFO holdout_cost_l2_reg 0.000867
+bumpy 2023-07-05T10:00:40.131964-0400 INFO holdout_cost_total 0.294099
+bumpy 2023-07-05T10:00:40.137479-0400 INFO train_cost_bumpy 0.075715
+bumpy 2023-07-05T10:00:40.141525-0400 INFO train_cost_bumpy_accuracy 0.882645
+bumpy 2023-07-05T10:00:40.145173-0400 INFO train_cost_bumpy_accuracy_random 0.201617
+bumpy 2023-07-05T10:00:40.146772-0400 INFO train_cost_l2_reg 0.000867
+bumpy 2023-07-05T10:00:40.148404-0400 INFO train_cost_total 0.076583
+bumpy 2023-07-05T10:00:40.149874-0400 DEBUG : total      28.1 (100.0%)
+bumpy 2023-07-05T10:00:40.150050-0400 DEBUG : train      27.8 (98.9%)
+bumpy 2023-07-05T10:00:40.150176-0400 DEBUG : holdout    0.3 (1.0%)
+bumpy 2023-07-05T10:00:40.150292-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T10:00:40.150408-0400 DEBUG 
+bumpy 2023-07-05T10:01:05.570318-0400 INFO 
+bumpy 2023-07-05T10:01:05.571437-0400 INFO Step 95000
+bumpy 2023-07-05T10:01:05.571932-0400 INFO holdout_cost_bumpy 0.314098
+bumpy 2023-07-05T10:01:05.572277-0400 INFO holdout_cost_bumpy_accuracy 0.853711
+bumpy 2023-07-05T10:01:05.572593-0400 INFO holdout_cost_bumpy_accuracy_random 0.153320
+bumpy 2023-07-05T10:01:05.572948-0400 INFO holdout_cost_l2_reg 0.000865
+bumpy 2023-07-05T10:01:05.573281-0400 INFO holdout_cost_total 0.314964
+bumpy 2023-07-05T10:01:05.576939-0400 INFO train_cost_bumpy 0.076088
+bumpy 2023-07-05T10:01:05.581144-0400 INFO train_cost_bumpy_accuracy 0.880852
+bumpy 2023-07-05T10:01:05.583614-0400 INFO train_cost_bumpy_accuracy_random 0.199508
+bumpy 2023-07-05T10:01:05.585343-0400 INFO train_cost_l2_reg 0.000865
+bumpy 2023-07-05T10:01:05.587094-0400 INFO train_cost_total 0.076953
+bumpy 2023-07-05T10:01:05.588674-0400 DEBUG : total      25.4 (100.0%)
+bumpy 2023-07-05T10:01:05.588877-0400 DEBUG : train      25.1 (98.8%)
+bumpy 2023-07-05T10:01:05.589042-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T10:01:05.589196-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T10:01:05.589351-0400 DEBUG 
+bumpy 2023-07-05T10:01:30.899011-0400 INFO 
+bumpy 2023-07-05T10:01:30.900097-0400 INFO Step 96000
+bumpy 2023-07-05T10:01:30.900524-0400 INFO holdout_cost_bumpy 0.396402
+bumpy 2023-07-05T10:01:30.900861-0400 INFO holdout_cost_bumpy_accuracy 0.845117
+bumpy 2023-07-05T10:01:30.901324-0400 INFO holdout_cost_bumpy_accuracy_random 0.165625
+bumpy 2023-07-05T10:01:30.901640-0400 INFO holdout_cost_l2_reg 0.000867
+bumpy 2023-07-05T10:01:30.901948-0400 INFO holdout_cost_total 0.397269
+bumpy 2023-07-05T10:01:30.903809-0400 INFO train_cost_bumpy 0.073867
+bumpy 2023-07-05T10:01:30.906617-0400 INFO train_cost_bumpy_accuracy 0.884008
+bumpy 2023-07-05T10:01:30.910845-0400 INFO train_cost_bumpy_accuracy_random 0.202121
+bumpy 2023-07-05T10:01:30.915979-0400 INFO train_cost_l2_reg 0.000867
+bumpy 2023-07-05T10:01:30.920824-0400 INFO train_cost_total 0.074734
+bumpy 2023-07-05T10:01:30.922275-0400 DEBUG : total      25.3 (100.0%)
+bumpy 2023-07-05T10:01:30.922450-0400 DEBUG : train      25.0 (98.8%)
+bumpy 2023-07-05T10:01:30.922575-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T10:01:30.922690-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T10:01:30.922802-0400 DEBUG 
+bumpy 2023-07-05T10:01:56.094612-0400 INFO 
+bumpy 2023-07-05T10:01:56.096045-0400 INFO Step 97000
+bumpy 2023-07-05T10:01:56.096625-0400 INFO holdout_cost_bumpy 0.315336
+bumpy 2023-07-05T10:01:56.097212-0400 INFO holdout_cost_bumpy_accuracy 0.846094
+bumpy 2023-07-05T10:01:56.097886-0400 INFO holdout_cost_bumpy_accuracy_random 0.139844
+bumpy 2023-07-05T10:01:56.098423-0400 INFO holdout_cost_l2_reg 0.000871
+bumpy 2023-07-05T10:01:56.099047-0400 INFO holdout_cost_total 0.316207
+bumpy 2023-07-05T10:01:56.101839-0400 INFO train_cost_bumpy 0.074377
+bumpy 2023-07-05T10:01:56.103729-0400 INFO train_cost_bumpy_accuracy 0.883613
+bumpy 2023-07-05T10:01:56.105569-0400 INFO train_cost_bumpy_accuracy_random 0.200746
+bumpy 2023-07-05T10:01:56.109237-0400 INFO train_cost_l2_reg 0.000871
+bumpy 2023-07-05T10:01:56.111200-0400 INFO train_cost_total 0.075248
+bumpy 2023-07-05T10:01:56.112835-0400 DEBUG : total      25.2 (100.0%)
+bumpy 2023-07-05T10:01:56.113014-0400 DEBUG : train      24.9 (98.8%)
+bumpy 2023-07-05T10:01:56.113143-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T10:01:56.113266-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T10:01:56.113384-0400 DEBUG 
+bumpy 2023-07-05T10:02:22.692757-0400 INFO 
+bumpy 2023-07-05T10:02:22.693898-0400 INFO Step 98000
+bumpy 2023-07-05T10:02:22.694386-0400 INFO holdout_cost_bumpy 0.302657
+bumpy 2023-07-05T10:02:22.694804-0400 INFO holdout_cost_bumpy_accuracy 0.850586
+bumpy 2023-07-05T10:02:22.695181-0400 INFO holdout_cost_bumpy_accuracy_random 0.150977
+bumpy 2023-07-05T10:02:22.695546-0400 INFO holdout_cost_l2_reg 0.000871
+bumpy 2023-07-05T10:02:22.695898-0400 INFO holdout_cost_total 0.303528
+bumpy 2023-07-05T10:02:22.699923-0400 INFO train_cost_bumpy 0.073988
+bumpy 2023-07-05T10:02:22.701876-0400 INFO train_cost_bumpy_accuracy 0.884273
+bumpy 2023-07-05T10:02:22.703369-0400 INFO train_cost_bumpy_accuracy_random 0.197965
+bumpy 2023-07-05T10:02:22.704922-0400 INFO train_cost_l2_reg 0.000871
+bumpy 2023-07-05T10:02:22.708854-0400 INFO train_cost_total 0.074859
+bumpy 2023-07-05T10:02:22.710453-0400 DEBUG : total      26.6 (100.0%)
+bumpy 2023-07-05T10:02:22.710645-0400 DEBUG : train      26.3 (98.8%)
+bumpy 2023-07-05T10:02:22.710775-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T10:02:22.710878-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T10:02:22.710978-0400 DEBUG 
+bumpy 2023-07-05T10:02:50.529675-0400 INFO 
+bumpy 2023-07-05T10:02:50.530577-0400 INFO Step 99000
+bumpy 2023-07-05T10:02:50.531089-0400 INFO holdout_cost_bumpy 0.347351
+bumpy 2023-07-05T10:02:50.531494-0400 INFO holdout_cost_bumpy_accuracy 0.840430
+bumpy 2023-07-05T10:02:50.531841-0400 INFO holdout_cost_bumpy_accuracy_random 0.144922
+bumpy 2023-07-05T10:02:50.532177-0400 INFO holdout_cost_l2_reg 0.000869
+bumpy 2023-07-05T10:02:50.532419-0400 INFO holdout_cost_total 0.348220
+bumpy 2023-07-05T10:02:50.534245-0400 INFO train_cost_bumpy 0.072900
+bumpy 2023-07-05T10:02:50.535932-0400 INFO train_cost_bumpy_accuracy 0.885352
+bumpy 2023-07-05T10:02:50.537578-0400 INFO train_cost_bumpy_accuracy_random 0.202340
+bumpy 2023-07-05T10:02:50.539204-0400 INFO train_cost_l2_reg 0.000869
+bumpy 2023-07-05T10:02:50.541306-0400 INFO train_cost_total 0.073769
+bumpy 2023-07-05T10:02:50.543010-0400 DEBUG : total      27.8 (100.0%)
+bumpy 2023-07-05T10:02:50.543234-0400 DEBUG : train      27.5 (98.8%)
+bumpy 2023-07-05T10:02:50.543363-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T10:02:50.543488-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T10:02:50.543603-0400 DEBUG 
+bumpy 2023-07-05T10:03:20.384162-0400 INFO 
+bumpy 2023-07-05T10:03:20.384954-0400 INFO Step 100000
+bumpy 2023-07-05T10:03:20.385245-0400 INFO holdout_cost_bumpy 0.363572
+bumpy 2023-07-05T10:03:20.385474-0400 INFO holdout_cost_bumpy_accuracy 0.839258
+bumpy 2023-07-05T10:03:20.385691-0400 INFO holdout_cost_bumpy_accuracy_random 0.164453
+bumpy 2023-07-05T10:03:20.385903-0400 INFO holdout_cost_l2_reg 0.000870
+bumpy 2023-07-05T10:03:20.386114-0400 INFO holdout_cost_total 0.364443
+bumpy 2023-07-05T10:03:20.388536-0400 INFO train_cost_bumpy 0.072144
+bumpy 2023-07-05T10:03:20.394243-0400 INFO train_cost_bumpy_accuracy 0.886746
+bumpy 2023-07-05T10:03:20.397310-0400 INFO train_cost_bumpy_accuracy_random 0.195418
+bumpy 2023-07-05T10:03:20.399968-0400 INFO train_cost_l2_reg 0.000870
+bumpy 2023-07-05T10:03:20.402252-0400 INFO train_cost_total 0.073015
+bumpy 2023-07-05T10:03:20.404842-0400 DEBUG : total      29.8 (100.0%)
+bumpy 2023-07-05T10:03:20.405121-0400 DEBUG : train      29.4 (98.5%)
+bumpy 2023-07-05T10:03:20.405281-0400 DEBUG : holdout    0.3 (1.1%)
+bumpy 2023-07-05T10:03:20.405405-0400 DEBUG : save       0.1 (0.2%)
+bumpy 2023-07-05T10:03:20.405545-0400 DEBUG : other      0.0 (0.1%)
+bumpy 2023-07-05T10:03:20.405678-0400 DEBUG 
