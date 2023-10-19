@@ -21,8 +21,8 @@ def get_model_params():
                 os.path.join(FileManager.configs_dir, 'collision_position.py'),
             ),
             ckptnums=(
-                4,
-                8,
+                10,
+                20,
             )
         )
 
