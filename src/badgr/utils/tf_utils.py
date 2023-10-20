@@ -44,8 +44,10 @@ def restore_checkpoint(ckpts_dir, model, ckptnum=None):
         ckpt_fname = os.path.join(ckpts_dir, 'ckpt-{0:d}'.format(ckptnum))
     logger.debug('Restoring ckpt {0}'.format(ckpt_fname))
     assert tf.train.checkpoint_exists(ckpt_fname)
+    logger.debug(f"Start restoring")
     checkpointer = tf.train.Checkpoint(model=model)
     status = checkpointer.restore(ckpt_fname)
+    logger.debug(f"Finished restoring")
     if not tf.executing_eagerly():
         status.initialize_or_restore(tf.get_default_session())
 
