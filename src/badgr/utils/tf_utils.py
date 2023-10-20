@@ -48,7 +48,8 @@ def restore_checkpoint(ckpts_dir, model, ckptnum=None):
     checkpointer = tf.train.Checkpoint(model=model)
     status = checkpointer.restore(ckpt_fname)
     logger.debug(f"Finished restoring")
-    tf.compat.v1.enable_eager_execution()
+    tf.enable_eager_execution()
+
     # if not tf.executing_eagerly():
     #     logger.debug(f"Getting session")
     #     session = tf.get_default_session()
