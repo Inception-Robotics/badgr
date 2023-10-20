@@ -50,6 +50,7 @@ def restore_checkpoint(ckpts_dir, model, ckptnum=None):
     logger.debug(f"Finished restoring")
     if not tf.executing_eagerly():
         status.initialize_or_restore(tf.get_default_session())
+    logger.debug(f"Finished restoring 2")
 
 
 def get_kernels(layers):
