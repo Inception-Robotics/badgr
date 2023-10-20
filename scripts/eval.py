@@ -44,6 +44,12 @@ planner.warm_start(model, obs, goal)
 ### restore policy
 model.restore(ckpts_dir=file_manager.ckpts_dir, ckptnum=args.ckpt)
 
+logger.debug("init variables")
+session = tf.get_default_session()
+init = tf.global_variables_initializer()
+session.run(init)
+logger.debug("done")
+
 ### eval loop
 
 exit_on_ctrl_c()
