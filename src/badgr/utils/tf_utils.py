@@ -49,11 +49,11 @@ def restore_checkpoint(ckpts_dir, model, ckptnum=None):
     status = checkpointer.restore(ckpt_fname)
     logger.debug(f"Finished restoring")
     
-    # if not tf.executing_eagerly():
-    #     logger.debug(f"Getting session")
-    #     session = tf.get_default_session()
-    #     logger.debug(f"Finished session")
-    #     status.initialize_or_restore(session)
+    if not tf.executing_eagerly():
+        logger.debug(f"Getting session")
+        session = tf.get_default_session()
+        logger.debug(f"Finished session")
+        status.initialize_or_restore(session)
     logger.debug(f"Finished restoring 2")
 
 

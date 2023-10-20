@@ -13,8 +13,8 @@ from badgr.file_manager import FileManager
 from badgr.utils.python_utils import exit_on_ctrl_c, import_config
 from badgr.utils import tf_utils
 
-import tensorflow as tf
-tf.enable_eager_execution() 
+# import tensorflow as tf
+# tf.enable_eager_execution() 
 
 parser = argparse.ArgumentParser()
 parser.add_argument('config', type=str)
@@ -44,11 +44,11 @@ planner.warm_start(model, obs, goal)
 ### restore policy
 model.restore(ckpts_dir=file_manager.ckpts_dir, ckptnum=args.ckpt)
 
-logger.debug("init variables")
-session = tf.get_default_session()
-init = tf.global_variables_initializer()
-session.run(init)
-logger.debug("done")
+# logger.debug("init variables")
+# session = tf.get_default_session()
+# init = tf.global_variables_initializer()
+# session.run(init)
+# logger.debug("done")
 
 ### eval loop
 
