@@ -1,7 +1,7 @@
-# import sys
-# sys.path.remove('/opt/ros/kinetic/lib/python2.7/dist-packages')
-# import cv2
-# sys.path.append('/opt/ros/kinetic/lib/python2.7/dist-packages')
+import sys
+sys.path.remove('/opt/ros/kinetic/lib/python2.7/dist-packages')
+import cv2
+sys.path.append('/opt/ros/kinetic/lib/python2.7/dist-packages')
 import argparse
 import os
 
