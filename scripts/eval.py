@@ -61,7 +61,7 @@ while num_dones < args.num_dones:
 
     get_action = planner.get_action(model, obs, goal)
     obs, goal, done = env.step(get_action)
-
+    print(get_action.all_costs)
     # publish command
     msg = Twist()
     msg.linear.x = get_action.action.commands.linear_velocity
