@@ -14,8 +14,7 @@ from badgr.file_manager import FileManager
 from badgr.utils.python_utils import exit_on_ctrl_c, import_config
 from badgr.utils import tf_utils
 
-# import tensorflow as tf
-# tf.enable_eager_execution() 
+os.environ['TF_FORCE_GPU_ALLOW_GROWTH'] = 'true'
 
 parser = argparse.ArgumentParser()
 parser.add_argument('config', type=str)
