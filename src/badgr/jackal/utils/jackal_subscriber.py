@@ -140,7 +140,6 @@ class JackalSubscriber(object):
         self._d_msg[topic] = msg
 
     def get(self, names=None):
-        print(f'rospy {rospy.is_shutdown()}')
         while not rospy.is_shutdown() and not self.is_all_topics_received:
             print('Waiting for all topics to be received...')
             rospy.sleep(0.2)
