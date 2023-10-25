@@ -8,6 +8,7 @@ from loguru import logger
 import numpy as np
 import os
 import rospy
+from geometry_msgs.msg import Twist
 
 from badgr.file_manager import FileManager
 from badgr.utils.python_utils import exit_on_ctrl_c, import_config
@@ -44,15 +45,12 @@ planner.warm_start(model, obs, goal)
 ### restore policy
 model.restore(ckpts_dir=file_manager.ckpts_dir, ckptnum=args.ckpt)
 
-# logger.debug("init variables")
-# session = tf.get_default_session()
-# init = tf.global_variables_initializer()
-# session.run(init)
-# logger.debug("done")
-
 ### eval loop
 
 exit_on_ctrl_c()
+
+# setup /cmd_vel publisher
+cmd_pub = rospy.Publisher('/cmd_vel',Twist,queue_size=1)
 
 done = True
 num_dones = -1
@@ -65,7 +63,11 @@ while num_dones < args.num_dones:
     get_action = planner.get_action(model, obs, goal)
     obs, goal, done = env.step(get_action)
 
-    print(get_action)
+    # publish command
+    msg = Twist()
+    msg.linear.x = get_action.action.commands.linear_velocity
+    msg.angular.z = -get_action.action.commands.angular_velocity
+    cmd_pub.publish(msg)
 
 logger.info('Eval is done')
 rospy.signal_shutdown(0)
