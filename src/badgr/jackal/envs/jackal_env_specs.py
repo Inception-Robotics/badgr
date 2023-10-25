@@ -33,8 +33,8 @@ class JackalEnvSpec(EnvSpec):
                 ('android/illuminance', (1,), (0., 200.), np.float32),
                 ('bumpy', (1,), (0, 1), np.bool),
 
-                ('commands/angular_velocity', (1,), (-1.0, 1.0), np.float32),
-                ('commands/linear_velocity', (1,), (0.75, 1.25), np.float32)
+                ('commands/angular_velocity', (1,), (-0.5, 0.5), np.float32),
+                ('commands/linear_velocity', (1,), (0.0, 0.5), np.float32)
             )
         )
 
