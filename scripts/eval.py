@@ -68,6 +68,7 @@ while num_dones < args.num_dones:
     msg.linear.x = get_action.action.commands.linear_velocity
     msg.angular.z = -get_action.action.commands.angular_velocity
     cmd_pub.publish(msg)
+    logger.info(f'command: v={msg.linear.x}, w={msg.angular.z}')
 
 logger.info('Eval is done')
 rospy.signal_shutdown(0)
