@@ -33,8 +33,8 @@ class JackalEnvSpec(EnvSpec):
                 ('android/illuminance', (1,), (0., 200.), np.float32),
                 ('bumpy', (1,), (0, 1), np.bool),
 
-                ('commands/angular_velocity', (1,), (-1.0, 1.0), np.float32),
-                ('commands/linear_velocity', (1,), (0.75, 1.25), np.float32)
+                ('commands/angular_velocity', (1,), (-0.5, 0.5), np.float32),
+                ('commands/linear_velocity', (1,), (0.0, 0.5), np.float32)
             )
         )
 
@@ -118,14 +118,14 @@ class JackalPositionCollisionEnvSpec(JackalEnvSpec):
 
             'jackal/imu/angular_velocity',
             'jackal/imu/linear_acceleration',
-            'imu/angular_velocity',
-            'imu/linear_acceleration',
+            # 'imu/angular_velocity',
+            # 'imu/linear_acceleration',
 
             'imu/compass_bearing',
             'gps/latlong',
 
-            'collision/close',
-            'collision/stuck'
+            # 'collision/close',
+            # 'collision/stuck'
         ]
         if not self._left_image_only:
             names.append('images/rgb_right')
@@ -145,11 +145,12 @@ class JackalBumpyEnvSpec(JackalEnvSpec):
 
             'jackal/imu/angular_velocity',
             'jackal/imu/linear_acceleration',
-            'imu/angular_velocity',
-            'imu/linear_acceleration',
+            # 'imu/angular_velocity',
+            # 'imu/linear_acceleration',
 
-            'bumpy',
+            # 'bumpy',
         ]
         if not self._left_image_only:
             names.append('images/rgb_right')
         return tuple(names)
+

@@ -30,7 +30,7 @@ RUN echo "Hello"
 # Create badgr package and build it
 RUN mkdir -p /opt/badgr_ws/src
 WORKDIR /opt/badgr_ws/src/
-RUN git clone https://github.com/Inception-Robotics/badgr.git
+RUN git clone https://github.com/liuji-umd/badgr.git
 WORKDIR /opt/badgr_ws/
 RUN . /opt/ros/kinetic/setup.sh && catkin_make
 WORKDIR /opt/badgr_ws/src/badgr/conda/

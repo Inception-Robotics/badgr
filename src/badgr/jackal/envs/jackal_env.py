@@ -79,13 +79,14 @@ class JackalEnv(Env):
         subscribe_names = set(self.spec.observation_names)
         subscribe_names.add('collision/any')
         subscribe_names.add('gps/utm')
-        subscribe_names.add('joy')
+        # subscribe_names.add('joy')
         self._jackal_subscriber = JackalSubscriber(names=subscribe_names)
 
         rospy.Subscriber('/goal_intermediate_latlong', Pose2D, callback=self._goal_callback)
         self._goal_latlong = np.array([37.915021, -122.334439]) # default to next to the bathroom
 
     def _goal_callback(self, msg):
+        rospy.loginfo(f"New goal: lat: {msg.x}, long: {msg.y}")
         self._goal_latlong = np.array([msg.x, msg.y])
 
     ##########################
@@ -130,13 +131,15 @@ class JackalEnv(Env):
         )
 
     def _get_done(self):
+        # removed collision, JL, 2023-10-06
         names = [
             'collision/any',
             'gps/latlong',
-            'joy'
+            #'joy'
         ]
         obs = AttrDict.from_dict(self._jackal_subscriber.get(names=names))
-        is_collision = obs.collision.any
+        # is_collision = obs.collision.any
+        is_collision = False # no collision, JL
         is_close_to_goal = np.linalg.norm(latlong_to_utm(self._goal_latlong) - latlong_to_utm(obs.gps.latlong)) < 2.0
         return is_collision or is_close_to_goal
 

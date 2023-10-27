@@ -17,6 +17,13 @@ def numpify_image_msg(msg):
 
 
 class JackalSubscriber(object):
+    
+    odom_topic_name = rospy.get_param("odom_topic_name", "/odom")
+    lidar_topic_name = rospy.get_param("lidar_topic_name","/scan")
+    cam_topic_name = rospy.get_param("cam_topic_name","/rgb")
+    cmd_topic_name = rospy.get_param("cmd_topic_name","/cmd")
+    mag_topic_name = rospy.get_param("mag_topic_name","/mag")
+    imu_topic_name = "/imu"
 
     topics_to_msgs = dict((
         ('/collision/any', Bool),
@@ -26,7 +33,7 @@ class JackalSubscriber(object):
         ('/collision/stuck', Bool),
         ('/collision/outside_geofence', Bool),
 
-        ('/rplidar/scan', LaserScan),
+        (lidar_topic_name, LaserScan), #('/rplidar/scan', LaserScan),
 
         ('/imu_um7/compass_bearing', Float32),
         ('/imu_um7/mag', Vector3Stamped),
@@ -35,12 +42,12 @@ class JackalSubscriber(object):
         ('/navsat/fix', NavSatFix),
         ('/navsat/vel', TwistStamped),
 
-        ('/odometry/filtered', Odometry),
-        ('/imu/data_raw', Imu),
+        (odom_topic_name, Odometry), #('/odometry/filtered', Odometry),
+        (imu_topic_name, Imu),      # ('/imu/data_raw', Imu),
 
         ('/cmd_vel', Twist),
 
-        ('/cam_left/image_raw', Image),
+        (cam_topic_name, Image),  # ('/cam_left/image_raw', Image),
         ('/cam_right/image_raw', Image),
         ('/teraranger_evo_thermal/raw_temp_array', Float64MultiArray),
 
@@ -57,7 +64,7 @@ class JackalSubscriber(object):
         ('collision/stuck', '/collision/stuck', lambda msg: msg.data),
         ('collision/outside_geofence', '/collision/outside_geofence', lambda msg: msg.data),
 
-        ('lidar', '/rplidar/scan', lambda msg: msg.ranges),
+        ('lidar', lidar_topic_name, lambda msg: msg.ranges),
 
         ('imu/compass_bearing', '/imu_um7/compass_bearing', lambda msg: msg.data),
         ('imu/magnetometer', '/imu_um7/mag', lambda msg: np.array([msg.vector.x,
@@ -77,26 +84,26 @@ class JackalSubscriber(object):
                                                               msg.twist.linear.y,
                                                               msg.twist.linear.z])),
 
-        ('jackal/position', '/odometry/filtered', lambda msg: np.array([msg.pose.pose.position.x,
+        ('jackal/position', odom_topic_name, lambda msg: np.array([msg.pose.pose.position.x,
                                                     msg.pose.pose.position.y,
                                                     msg.pose.pose.position.z])),
-        ('jackal/yaw', '/odometry/filtered', lambda msg: np.arctan2(2*msg.pose.pose.orientation.w *
+        ('jackal/yaw', odom_topic_name, lambda msg: np.arctan2(2*msg.pose.pose.orientation.w *
                                                 msg.pose.pose.orientation.z,
                                                 1 - 2 * msg.pose.pose.orientation.z *
                                                 msg.pose.pose.orientation.z)),
-        ('jackal/linear_velocity', '/odometry/filtered', lambda msg: msg.twist.twist.linear.x),
-        ('jackal/angular_velocity', '/odometry/filtered', lambda msg: msg.twist.twist.angular.z),
-        ('jackal/imu/linear_acceleration', '/imu/data_raw', lambda msg: np.array([msg.linear_acceleration.x,
+        ('jackal/linear_velocity', odom_topic_name, lambda msg: msg.twist.twist.linear.x),
+        ('jackal/angular_velocity', odom_topic_name, lambda msg: msg.twist.twist.angular.z),
+        ('jackal/imu/linear_acceleration', imu_topic_name, lambda msg: np.array([msg.linear_acceleration.x,
                                                                    msg.linear_acceleration.y,
                                                                    msg.linear_acceleration.z])),
-        ('jackal/imu/angular_velocity', '/imu/data_raw', lambda msg: np.array([msg.angular_velocity.x,
+        ('jackal/imu/angular_velocity', imu_topic_name, lambda msg: np.array([msg.angular_velocity.x,
                                                                 msg.angular_velocity.y,
                                                                 msg.angular_velocity.z])),
 
-        ('commands/linear_velocity', '/cmd_vel', lambda msg: msg.linear.x),
-        ('commands/angular_velocity', '/cmd_vel', lambda msg: msg.angular.z),
+        ('commands/linear_velocity', cmd_topic_name, lambda msg: msg.linear.x),
+        ('commands/angular_velocity', cmd_topic_name, lambda msg: msg.angular.z),
 
-        ('images/rgb_left', '/cam_left/image_raw', lambda msg: numpify_image_msg(msg)),
+        ('images/rgb_left', cam_topic_name, lambda msg: numpify_image_msg(msg)),
         ('images/rgb_right', '/cam_left/image_raw', lambda msg: numpify_image_msg(msg)),
         ('images/thermal', '/teraranger_evo_thermal/raw_temp_array',
          lambda msg: np.fliplr(np.array(msg.data).reshape(32, 32))),
@@ -115,15 +122,21 @@ class JackalSubscriber(object):
 
         self._topics = set([JackalSubscriber.names_to_topics[name] for name in self._names])
         for topic in self._topics:
+            print(f"Topic to subscribe: {topic}")
             rospy.Subscriber(topic, JackalSubscriber.topics_to_msgs[topic],
                              callback=self.update_msg, callback_args=(topic,), queue_size=1)
 
     @property
     def is_all_topics_received(self):
-        return len(self._topics.difference(set(self._d_msg.keys()))) == 0
+        tmp = len(self._topics.difference(set(self._d_msg.keys())))
+        # print(self._topics)
+        # print(self._d_msg.keys())
+        # print(tmp)
+        return  tmp == 0
 
     def update_msg(self, msg, args):
         topic = args[0]
+        # rospy.loginfo(f"Msg from {topic}")
         self._d_msg[topic] = msg
 
     def get(self, names=None):

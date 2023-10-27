@@ -12,10 +12,11 @@ class JackalPositionModel(JackalModel):
         super(JackalPositionModel, self).__init__(params)
 
         self._is_output_gps = params.is_output_gps
+        print(f"is output gps: {params.is_output_gps}")
 
     def _get_position_outputs(self, preprocess_outputs, inputs):
         assert preprocess_outputs.shape.as_list()[-1] == 3
-
+        print(f"is output gps: {self._is_output_gps}")
         if self._is_output_gps:
             batch_size = tf.shape(preprocess_outputs)[0]
             position = tf.zeros([batch_size, 3])

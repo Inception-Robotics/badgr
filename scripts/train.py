@@ -1,3 +1,7 @@
+import sys
+sys.path.remove('/opt/ros/kinetic/lib/python2.7/dist-packages')
+import cv2
+sys.path.append('/opt/ros/kinetic/lib/python2.7/dist-packages')
 import argparse
 import os
 
@@ -8,7 +12,7 @@ from badgr.utils.python_utils import import_config
 
 parser = argparse.ArgumentParser()
 parser.add_argument('config', type=str)
-parser.add_argument('--continue', action='store_true')
+parser.add_argument('--continue', action='store_true',default=True)
 parser.add_argument('--gpu', type=int, default=0)
 parser.add_argument('--gpu_frac', type=float, default=0.3)
 args = parser.parse_args()
